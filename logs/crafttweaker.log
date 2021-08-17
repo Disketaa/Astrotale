@@ -6,3 +6,54 @@
 [17:01:07.428][CONSTRUCT][CLIENT][INFO] Completed building internal Registries
 [17:01:25.439][COMMON_SETUP][CLIENT][INFO] Started loading Scripts for Loader 'setupCommon'!
 [17:01:26.600][COMMON_SETUP][CLIENT][INFO] Finished loading Scripts!
+[17:03:54.339][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[17:03:54.455][DONE][CLIENT][INFO] Loading file: 'General.zs' with priority: 10
+[17:03:54.457][DONE][CLIENT][INFO] Loading file: 'JEIHide.zs' with priority: 10
+[17:03:54.485][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with modid: "theoneprobe"
+[17:03:54.490][DONE][CLIENT][INFO] Adding "minecraft:smelting" recipe, with name: "crafttweaker:leather" that outputs: <item:minecraft:leather>
+[17:03:54.490][DONE][CLIENT][INFO] Adding "minecraft:smelting" recipe, with name: "crafttweaker:smooth_stone" that outputs: <item:minecraft:smooth_stone>
+[17:03:54.498][DONE][CLIENT][INFO] Finished loading Scripts!
+[17:03:54.500][DONE][CLIENT][INFO] This reload was made possible by NerdyWhiteGuy and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[17:04:16.286][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[17:04:16.353][DONE][CLIENT][INFO] Loading file: 'General.zs' with priority: 10
+[17:04:16.353][DONE][CLIENT][INFO] Loading file: 'JEIHide.zs' with priority: 10
+[17:04:16.373][DONE][CLIENT][INFO] Adding JEI Info for: <item:minecraft:glowstone_dust>
+[17:04:16.373][DONE][CLIENT][INFO] Adding JEI Info for: <item:minecraft:emerald>
+[17:04:16.374][DONE][CLIENT][INFO] JEI Hiding Item: <item:minecraft:stone>
+[17:04:16.374][DONE][CLIENT][INFO] JEI Hiding Item: <item:minecraft:stone_slab>
+[17:04:16.374][DONE][CLIENT][INFO] JEI Hiding Item: <item:minecraft:stone_stairs>
+[17:04:16.374][DONE][CLIENT][INFO] JEI Hiding Item: <item:minecraft:bedrock>
+[17:04:16.374][DONE][CLIENT][INFO] JEI Hiding Item: <item:minecraft:cobweb>
+[17:04:16.374][DONE][CLIENT][INFO] JEI Hiding Item: <item:minecraft:grass>
+[17:04:16.374][DONE][CLIENT][INFO] JEI Hiding Item: <item:minecraft:fern>
+[17:04:16.374][DONE][CLIENT][INFO] JEI Hiding Item: <item:minecraft:seagrass>
+[17:04:16.374][DONE][CLIENT][INFO] JEI Hiding Item: <item:minecraft:crimson_roots>
+[17:04:16.374][DONE][CLIENT][INFO] JEI Hiding Item: <item:minecraft:warped_roots>
+[17:04:16.374][DONE][CLIENT][INFO] JEI Hiding Item: <item:minecraft:nether_sprouts>
+[17:04:16.374][DONE][CLIENT][INFO] JEI Hiding Item: <item:minecraft:weeping_vines>
+[17:04:16.375][DONE][CLIENT][INFO] JEI Hiding Item: <item:minecraft:twisting_vines>
+[17:04:16.375][DONE][CLIENT][INFO] JEI Hiding Item: <item:minecraft:farmland>
+[17:04:16.375][DONE][CLIENT][INFO] JEI Hiding Item: <item:minecraft:brown_mushroom_block>
+[17:04:16.375][DONE][CLIENT][INFO] JEI Hiding Item: <item:minecraft:red_mushroom_block>
+[17:04:16.375][DONE][CLIENT][INFO] JEI Hiding Item: <item:minecraft:mushroom_stew>
+[17:04:16.375][DONE][CLIENT][INFO] JEI Hiding Item: <item:minecraft:vine>
+[17:04:16.375][DONE][CLIENT][INFO] JEI Hiding Item: <item:minecraft:lily_pad>
+[17:04:16.375][DONE][CLIENT][INFO] JEI Hiding Item: <item:minecraft:end_portal_frame>
+[17:04:16.375][DONE][CLIENT][INFO] JEI Hiding Item: <item:minecraft:chipped_anvil>
+[17:04:16.375][DONE][CLIENT][INFO] JEI Hiding Item: <item:minecraft:damaged_anvil>
+[17:04:16.375][DONE][CLIENT][INFO] JEI Hiding Item: <item:minecraft:tall_grass>
+[17:04:16.375][DONE][CLIENT][INFO] JEI Hiding Item: <item:minecraft:large_fern>
+[17:04:16.375][DONE][CLIENT][INFO] JEI Hiding Item: <item:minecraft:skeleton_skull>
+[17:04:16.375][DONE][CLIENT][INFO] JEI Hiding Item: <item:minecraft:wither_skeleton_skull>
+[17:04:16.375][DONE][CLIENT][INFO] JEI Hiding Item: <item:minecraft:zombie_head>
+[17:04:16.375][DONE][CLIENT][INFO] JEI Hiding Item: <item:minecraft:creeper_head>
+[17:04:16.376][DONE][CLIENT][INFO] JEI Hiding Item: <item:minecraft:dragon_head>
+[17:04:16.376][DONE][CLIENT][INFO] JEI Hiding Fluid: <fluid:minecraft:lava>
+[17:04:16.376][DONE][CLIENT][INFO] JEI Hiding Fluid: <fluid:minecraft:water>
+[17:04:16.376][DONE][CLIENT][INFO] JEI Hiding all Items from by Regex: .*infested.*
+[17:04:16.381][DONE][CLIENT][INFO] JEI Hiding all Items from by Regex: .*dead.*coral.*
+[17:04:16.386][DONE][CLIENT][INFO] JEI Hiding all Items from by Regex: .*spawn_egg.*
+[17:04:16.390][DONE][CLIENT][INFO] JEI Hiding all Items from Mod: theoneprobe
+[17:04:16.392][DONE][CLIENT][INFO] JEI Hiding Item: <item:betterendforge:pearlberry_seed>
+[17:04:16.392][DONE][CLIENT][INFO] JEI Hiding Item: <item:betterendforge:umbrella_tree_sapling>
+[17:04:16.392][DONE][CLIENT][INFO] Finished loading Scripts!

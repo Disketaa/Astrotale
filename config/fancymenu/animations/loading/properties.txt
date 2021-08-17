@@ -1,3 +1,0 @@
-name = loading
-loop = true
-fps = 24
