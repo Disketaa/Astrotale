@@ -1,6 +1,6 @@
 {
   "version": "${file.jarVersion}",
-  "initPopup": true,
+  "initPopup": false,
   "exportMode": false,
   "generatedBy": "\u003cdefault\u003e",
   "activeConfigs": [

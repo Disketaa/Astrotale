@@ -4,10 +4,10 @@
       "Name": "betterendforge:end_moss"
     },
     "under_material": {
-      "Name": "minecraft:end_stone"
+      "Name": "minecraft:dirt"
     },
     "underwater_material": {
-      "Name": "minecraft:end_stone"
+      "Name": "minecraft:dirt"
     }
   },
   "type": "minecraft:default"

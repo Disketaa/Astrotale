@@ -1,8 +1,5 @@
 type = customizablemenus
 
-net.minecraft.client.gui.screen.MainMenuScreen {
-}
-
 chylex.respack.gui.CustomResourcePackScreen {
 }
 
@@ -31,5 +28,8 @@ net.minecraft.client.gui.screen.IngameMenuScreen {
 }
 
 net.minecraft.client.gui.screen.WorldLoadProgressScreen {
+}
+
+net.minecraft.client.gui.screen.MainMenuScreen {
 }
 

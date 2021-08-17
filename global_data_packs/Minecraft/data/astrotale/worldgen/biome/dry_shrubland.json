@@ -15,7 +15,6 @@
   },
   "starts": [
     "minecraft:mineshaft",
-	"minecraft:fortress"
   ],
   "features": [
     [],
@@ -39,14 +38,14 @@
       "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel",
-	  "astrotale:blob_stone"
+	    "astrotale:blob_stone"
     ],
     [],
     [
       "betterendforge:orango",
-	  "betterendforge:aeridium",
-	  "betterendforge:lutebus",
-	  "betterendforge:lamellarium"
+  	  "betterendforge:aeridium",
+  	  "betterendforge:lutebus",
+  	  "betterendforge:lamellarium"
     ],
     []
   ],
