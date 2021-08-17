@@ -1,4 +1,7 @@
 // Minecraft
+mods.jei.JEI.hideItem(<item:minecraft:stone>);
+mods.jei.JEI.hideItem(<item:minecraft:stone_slab>);
+mods.jei.JEI.hideItem(<item:minecraft:stone_stairs>);
 mods.jei.JEI.hideItem(<item:minecraft:bedrock>);
 mods.jei.JEI.hideItem(<item:minecraft:cobweb>);
 mods.jei.JEI.hideItem(<item:minecraft:grass>);

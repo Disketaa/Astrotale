@@ -3001,91 +3001,6 @@
       "installedTargets": null
     },
     {
-      "addonID": 491233,
-      "gameInstanceID": "aa4110b3-4d0b-4955-af59-6480bb99e3f7",
-      "installedFile": {
-        "id": 3410021,
-        "displayName": "sodium-forge-2.9.10",
-        "fileName": "sodium-forge-2.9.10+rev.ea6353c.jar",
-        "fileDate": "2021-08-02T19:57:56.14Z",
-        "fileLength": 913373,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3410/21/sodium-forge-2.9.10+rev.ea6353c.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 3015735860,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "me",
-            "fingerprint": 103258859,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 2928256315,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 3244915671,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "sodium.mixins.json",
-            "fingerprint": 1741316627,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "sodium.refmap.json",
-            "fingerprint": 3142536981,
-            "type": 0,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 2620665428,
-        "gameVersion": [
-          "1.16",
-          "1.16.5",
-          "Forge"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "sodium-forge-2.9.10+rev.ea6353c.jar.disabled"
-      },
-      "dateInstalled": "2021-08-16T06:44:38.2818897Z",
-      "dateUpdated": "2021-08-16T06:44:38.2838843Z",
-      "dateLastUpdateAttempted": "2021-08-16T06:44:38.2838843Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": true,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
       "addonID": 288885,
       "gameInstanceID": "aa4110b3-4d0b-4955-af59-6480bb99e3f7",
       "installedFile": {
@@ -3303,6 +3218,122 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
+    },
+    {
+      "addonID": 238891,
+      "gameInstanceID": "aa4110b3-4d0b-4955-af59-6480bb99e3f7",
+      "installedFile": {
+        "id": 3288746,
+        "displayName": "DynamicSurroundings-1.16.4-4.0.4.2.jar",
+        "fileName": "DynamicSurroundings-1.16.4-4.0.4.2.jar",
+        "fileDate": "2021-04-25T16:00:24.307Z",
+        "fileLength": 14853313,
+        "releaseType": 2,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3288/746/DynamicSurroundings-1.16.4-4.0.4.2.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 348521,
+            "type": 2,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 4008710479,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3697538910,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "logo.png",
+            "fingerprint": 272076045,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mixins.dsurround.json",
+            "fingerprint": 3520738230,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mixins.dsurround.refmap.json",
+            "fingerprint": 1279673114,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mixins.environs.json",
+            "fingerprint": 888557490,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mixins.mobeffects.json",
+            "fingerprint": 3568797176,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mixins.sndctrl.json",
+            "fingerprint": 1406853253,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "org",
+            "fingerprint": 3652978582,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3863688199,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 943954306,
+        "gameVersion": [
+          "1.16.5",
+          "Forge",
+          "1.16.4"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "DynamicSurroundings-1.16.4-4.0.4.2.jar"
+      },
+      "dateInstalled": "2021-08-17T08:50:28.8983667Z",
+      "dateUpdated": "2021-08-17T08:50:28.9213049Z",
+      "dateLastUpdateAttempted": "2021-08-17T08:50:28.9213049Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
     },
     {
       "addonID": 227795,

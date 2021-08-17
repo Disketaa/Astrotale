@@ -1,0 +1,893 @@
+[17:00:46] [main/INFO]: ModLauncher running: args [--username, Disketaa, --version, forge-36.2.0, --gameDir, D:\Modpacks\Instances\Astrotale, --assetsDir, D:\Modpacks\Install\assets, --assetIndex, 1.16, --uuid, 47c485d493a545f1a7fed3af5f78db76, --accessToken, ????????, --userType, mojang, --versionType, release, --width, 1024, --height, 768, --launchTarget, fmlclient, --fml.forgeVersion, 36.2.0, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20210115.111550]
+[17:00:46] [main/INFO]: ModLauncher 8.0.9+86+master.3cf110c starting: java version 1.8.0_51 by Oracle Corporation
+[17:00:46] [main/WARN]: LEGACY JDK DETECTED, SECURED JAR HANDLING DISABLED
+[17:00:48] [main/INFO]: Added Lets Encrypt root certificates as additional trust
+[17:00:48] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/D:/Modpacks/Install/libraries/org/spongepowered/mixin/0.8.2/mixin-0.8.2.jar Service=ModLauncher Env=CLIENT
+[17:00:51] [main/ERROR]: Mixin config antiqueatlas.mixins.json does not specify "minVersion" property
+[17:00:51] [main/ERROR]: Mixin config drippyloadingscreen.mixin.json does not specify "minVersion" property
+[17:00:51] [main/INFO]: Launching target 'fmlclient' with arguments [--version, forge-36.2.0, --gameDir, D:\Modpacks\Instances\Astrotale, --assetsDir, D:\Modpacks\Install\assets, --uuid, 47c485d493a545f1a7fed3af5f78db76, --username, Disketaa, --assetIndex, 1.16, --accessToken, ????????, --userType, mojang, --versionType, release, --width, 1024, --height, 768]
+[17:00:51] [main/WARN]: Reference map 'globaldataandresourcepacks.refmap.json' for globaldataandresourcepacks.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:00:52] [main/INFO]: Patching LivingEntity#attackEntityFrom
+[17:00:53] [main/INFO]: Patching PlayerContainer#<init>
+[17:00:53] [main/INFO]: Patching PlayerContainer#onCraftMatrixChanged
+[17:00:53] [main/INFO]: Patching PlayerContainer#transferStackInSlot
+[17:00:53] [main/INFO]: Patching ModelBakery#<init>
+[17:00:53] [main/INFO]: Patching ItemStack#onItemUse
+[17:00:56] [pool-3-thread-1/INFO]: Patching LivingEntity#attackEntityFrom
+[17:00:56] [pool-3-thread-1/INFO]: Using Java 8 class definer
+[17:00:56] [pool-3-thread-1/INFO]: Patching PlayerContainer#<init>
+[17:00:56] [pool-3-thread-1/INFO]: Patching PlayerContainer#onCraftMatrixChanged
+[17:00:56] [pool-3-thread-1/INFO]: Patching PlayerContainer#transferStackInSlot
+[17:00:56] [pool-3-thread-1/INFO]: Patching ItemStack#onItemUse
+[17:00:58] [pool-3-thread-1/INFO]: Patching ItemStack#onItemUse
+[17:01:02] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:01:02] [Render thread/INFO]: Setting user: Disketaa
+[17:01:03] [Render thread/INFO]: Backend library: LWJGL version 3.2.2 build 10
+[17:01:04] [modloading-worker-1/INFO]: Patching DataPackRegistries#<init>
+[17:01:04] [modloading-worker-0/INFO]: Patching LootTableManager#apply
+[17:01:04] [modloading-worker-3/INFO]: Forge mod loading, version 36.2.0, for MC 1.16.5 with MCP 20210115.111550
+[17:01:04] [modloading-worker-3/INFO]: MinecraftForge v36.2.0 Initialized
+[17:01:05] [modloading-worker-3/INFO]: [de.keksuccino.konkrete.Konkrete:<init>:50]: [KONKRETE] Successfully initialized!
+[17:01:05] [modloading-worker-3/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Main.initialize()
+[17:01:05] [modloading-worker-3/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Reflecting GuiContainer...
+[17:01:05] [modloading-worker-3/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Detected obfuscation: FORGE.
+[17:01:05] [modloading-worker-3/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Success.
+[17:01:05] [modloading-worker-3/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Initialized.
+[17:01:06] [modloading-worker-2/INFO]: Optifine not detected.
+[17:01:06] [modloading-worker-2/INFO]: Patching ModelBakery#<init>
+[17:01:06] [modloading-worker-3/INFO]: Patching DataPackRegistries#<init>
+[17:01:06] [modloading-worker-3/INFO]: Detected new forge version, registering events reflectively.
+[17:01:06] [modloading-worker-2/INFO]: [de.keksuccino.drippyloadingscreen.DrippyLoadingScreen:<init>:61]: [DRIPPY LOADING SCREEN] FancyMenu found!
+[17:01:06] [modloading-worker-0/INFO]: [de.keksuccino.fancymenu.menu.animation.AnimationHandler:loadCustomAnimations:340]: [FM AnimationHandler] Custom animation found and registered: loading
+[17:01:07] [modloading-worker-0/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: java.io.FileNotFoundException: D:\Modpacks\Instances\Astrotale\config\fancymenu\customguis\menuscreens (Отказано в доступе)
+[17:01:07] [modloading-worker-0/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at java.io.FileInputStream.open0(Native Method)
+[17:01:07] [modloading-worker-0/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at java.io.FileInputStream.open(FileInputStream.java:195)
+[17:01:07] [modloading-worker-0/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+[17:01:07] [modloading-worker-0/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at de.keksuccino.konkrete.file.FileUtils.getFileLines(FileUtils.java:58)
+[17:01:07] [modloading-worker-0/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at de.keksuccino.fancymenu.menu.fancy.guicreator.CustomGuiLoader.loadCustomGuis(CustomGuiLoader.java:34)
+[17:01:07] [modloading-worker-0/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at de.keksuccino.fancymenu.FancyMenu.<init>(FancyMenu.java:71)
+[17:01:07] [modloading-worker-0/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[17:01:07] [modloading-worker-0/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+[17:01:07] [modloading-worker-0/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[17:01:07] [modloading-worker-0/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+[17:01:07] [modloading-worker-0/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at java.lang.Class.newInstance(Class.java:442)
+[17:01:07] [modloading-worker-0/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:81)
+[17:01:07] [modloading-worker-0/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at net.minecraftforge.fml.javafmlmod.FMLModContainer$$Lambda$3069/1419794148.run(Unknown Source)
+[17:01:07] [modloading-worker-0/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:120)
+[17:01:07] [modloading-worker-0/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at net.minecraftforge.fml.ModContainer$$Lambda$3132/797374927.run(Unknown Source)
+[17:01:07] [modloading-worker-0/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1618)
+[17:01:07] [modloading-worker-0/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1610)
+[17:01:07] [modloading-worker-0/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+[17:01:07] [modloading-worker-0/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+[17:01:07] [modloading-worker-0/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1689)
+[17:01:07] [modloading-worker-0/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+[17:01:10] [Render thread/INFO]: HELLO from Register Block
+[17:01:10] [Render thread/INFO]: Potentially Dangerous alternative prefix `minecraft` for name `crafting_table`, expected `fastbench`. This could be a intended override, but in most cases indicates a broken mod.
+[17:01:10] [Render thread/INFO]: Potentially Dangerous alternative prefix `minecraft` for name `crafting_table`, expected `fastbench`. This could be a intended override, but in most cases indicates a broken mod.
+[17:01:10] [Render thread/INFO]: Potentially Dangerous alternative prefix `minecraft` for name `milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+[17:01:10] [Render thread/INFO]: Potentially Dangerous alternative prefix `minecraft` for name `flowing_milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+[17:01:11] [Render thread/WARN]: Registry minecraft:worldgen/biome: The object minecraft:the_end has been registered twice for the same name minecraft:the_end.
+[17:01:11] [Render thread/WARN]: Registry minecraft:worldgen/biome: The object minecraft:end_barrens has been registered twice for the same name minecraft:end_barrens.
+[17:01:11] [Render thread/WARN]: Registry minecraft:worldgen/biome: The object minecraft:small_end_islands has been registered twice for the same name minecraft:small_end_islands.
+[17:01:11] [Render thread/WARN]: Registry minecraft:worldgen/biome: The object minecraft:end_midlands has been registered twice for the same name minecraft:end_midlands.
+[17:01:11] [Render thread/WARN]: Registry minecraft:worldgen/biome: The object minecraft:end_highlands has been registered twice for the same name minecraft:end_highlands.
+[17:01:11] [Render thread/INFO]: Patching BlockModelShapes#getModelLocation
+[17:01:12] [Render thread/INFO]: Narrator library for x64 successfully loaded
+[17:01:12] [Render thread/INFO]: Reloading ResourceManager: Blur dummy resource pack, Default, Mod Resources, Astrotale Resources, Xali's Enhanced Vanilla, Mo's Vibrancy Pack, Brunozamp's Foliage
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:basalt_columns1
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:basalt_columns2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:basalt_columns3
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:basalt_columns_lava1
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:birch
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:birch2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:birch_hills
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:birch_hills2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:bryce
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:bryce2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:bryce3
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:bryce4
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:bushes_cliffs
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:butchers_shop
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:cacti
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:cave_walls
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:church
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:cliffs
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:cliffs_clouds
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:dense_birch
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:dense_forest
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:dense_forest2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:dense_forest_hills
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:dense_forest_hills2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:end_island
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:end_island2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:end_island_plants
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:end_island_plants2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:end_void
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:farmland_l
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:farmland_s
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:fence
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:forest
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:forest2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:forest3
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:forest_flowers
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:forest_flowers2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:forest_flowers3
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:forest_hills
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:forest_hills2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:forest_hills3
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:forest_sparse
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:forest_sparse2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:forest_sparse3
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:forest_sparse_hills
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:forest_sparse_hills2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:forest_sparse_hills3
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:grass
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:grass2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:grass3
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:grass4
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:hills
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:hills_bushes
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:hills_cacti
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:hills_grass
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:house
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:house_small
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:hut
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:ice_border
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:ice_noborder
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:ice_spikes
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:ice_spikes2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:jungle
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:jungle2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:jungle_cliffs
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:jungle_cliffs2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:jungle_edge
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:jungle_edge2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:jungle_edge3
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:jungle_edge_hills
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:jungle_edge_hills2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:jungle_edge_hills3
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:jungle_hills
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:jungle_hills2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:l_house
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:lava
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:lava2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:lava_shore
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:lava_shore2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:library
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:mega_spruce
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:mega_spruce2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:mega_spruce_hills
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:mega_spruce_hills2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:mega_taiga
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:mega_taiga2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:mega_taiga_hills
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:mega_taiga_hills2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:mesa
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:mesa2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:mesa3
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:mesa4
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:mountains
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:mountains2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:mountains3
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:mountains4
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:mountains5
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:mushroom
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:mushroom2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:nether_bridge
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:nether_bridge_end_x
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:nether_bridge_end_z
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:nether_bridge_gate
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:nether_bridge_x
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:nether_bridge_z
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:nether_fort_stairs
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:nether_hall
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:nether_throne
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:nether_tower
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:nether_wall
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:pines
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:pines2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:pines3
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:pines_hills
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:pines_hills2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:pines_hills3
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:plateau_grass
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:plateau_grass2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:plateau_grass3
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:plateau_mesa
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:plateau_mesa2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:plateau_mesa_low
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:plateau_mesa_low2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:plateau_savanna
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:plateau_savanna2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:plateau_savanna3
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:plateau_trees
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:plateau_trees_low
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:ravine
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:ravine2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:rock_shore
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:ruined_portal
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:sand
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:sand2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:sand3
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:sand_bushes
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:savanna
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:savanna2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:savanna3
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:savanna_cliffs
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:savanna_cliffs2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:savanna_cliffs3
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:savanna_cliffs_clouds
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:savanna_cliffs_clouds2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:savanna_cliffs_clouds3
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:shore
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:shore2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:shore3
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:smithy
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:snow
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:snow1
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:snow2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:snow3
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:snow4
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:snow5
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:snow6
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:snow_caps
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:snow_hills
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:snow_hills2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:snow_pines
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:snow_pines2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:snow_pines3
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:snow_pines_hills
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:snow_pines_hills2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:snow_pines_hills3
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:sunflowers
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:sunflowers2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:swamp
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:swamp2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:swamp3
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:swamp4
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:swamp5
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:swamp6
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:swamp_hills
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:swamp_hills2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:swamp_hills3
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:swamp_hills4
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:swamp_hills5
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:tall_birch
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:tall_birch2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:tall_birch_hills
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:tall_birch_hills2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:test
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:village_path_x
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:village_path_z
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:village_torch
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:water
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:water2
+[17:01:12] [ForkJoinPool.commonPool-worker-2/INFO]: Found new Texture: antiqueatlas:well
+[17:01:13] [Thread-1/FATAL]: theoneprobe config just got changed on the file system!
+[17:01:13] [Thread-1/FATAL]: theoneprobe config just got changed on the file system!
+[17:01:14] [Thread-1/FATAL]: theoneprobe config just got changed on the file system!
+[17:01:18] [Worker-Main3/WARN]: Exception loading blockstate definition: betterendforge:blockstates/pearlberry_seed.json: java.io.FileNotFoundException: betterendforge:blockstates/pearlberry_seed.json
+[17:01:18] [Worker-Main3/WARN]: Exception loading blockstate definition: 'betterendforge:blockstates/pearlberry_seed.json' missing model for variant: 'betterendforge:pearlberry_seed#age=0'
+[17:01:18] [Worker-Main3/WARN]: Exception loading blockstate definition: 'betterendforge:blockstates/pearlberry_seed.json' missing model for variant: 'betterendforge:pearlberry_seed#age=1'
+[17:01:18] [Worker-Main3/WARN]: Exception loading blockstate definition: 'betterendforge:blockstates/pearlberry_seed.json' missing model for variant: 'betterendforge:pearlberry_seed#age=2'
+[17:01:18] [Worker-Main3/WARN]: Exception loading blockstate definition: 'betterendforge:blockstates/pearlberry_seed.json' missing model for variant: 'betterendforge:pearlberry_seed#age=3'
+[17:01:22] [Worker-Main3/WARN]: Unable to load model: 'betterendforge:pearlberry_seed#inventory' referenced from: betterendforge:pearlberry_seed#inventory: java.io.FileNotFoundException: betterendforge:models/item/pearlberry_seed.json
+[17:01:23] [Worker-Main3/WARN]: Unable to resolve texture reference: #missing in minecraft:block/lily_pad_1
+[17:01:23] [Worker-Main3/WARN]: Unable to resolve texture reference: #missing in minecraft:block/lily_pad_2
+[17:01:24] [Worker-Main4/WARN]: Called deprecated GlobalEntityTypeAttributes#put for goblintraders:goblin_trader, use EntityAttributeCreationEvent instead.
+[17:01:24] [Worker-Main4/WARN]: Called deprecated GlobalEntityTypeAttributes#put for goblintraders:vein_goblin_trader, use EntityAttributeCreationEvent instead.
+[17:01:26] [Worker-Main4/INFO]: CraftTweaker has loaded successfully!
+[17:01:26] [Forge Version Check/INFO]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
+[17:01:27] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for betterendforge:end_fish, use EntityAttributeCreationEvent instead.
+[17:01:27] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for betterendforge:dragonfly, use EntityAttributeCreationEvent instead.
+[17:01:27] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for betterendforge:shadow_walker, use EntityAttributeCreationEvent instead.
+[17:01:27] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for betterendforge:end_slime, use EntityAttributeCreationEvent instead.
+[17:01:27] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for betterendforge:cubozoa, use EntityAttributeCreationEvent instead.
+[17:01:27] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for betterendforge:silk_moth, use EntityAttributeCreationEvent instead.
+[17:01:27] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for endergetic:booflo, use EntityAttributeCreationEvent instead.
+[17:01:27] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for endergetic:booflo_adolescent, use EntityAttributeCreationEvent instead.
+[17:01:27] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for endergetic:booflo_baby, use EntityAttributeCreationEvent instead.
+[17:01:27] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for endergetic:puff_bug, use EntityAttributeCreationEvent instead.
+[17:01:27] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for endergetic:poise_cluster, use EntityAttributeCreationEvent instead.
+[17:01:27] [Placebo Patreon Wing Loader/INFO]: Loading patreon wing data...
+[17:01:27] [Placebo Patreon Trail Loader/INFO]: Loading patreon trails data...
+[17:01:27] [Worker-Main6/INFO]: CraftTweaker client has loaded successfully!
+[17:01:27] [Worker-Main6/INFO]: [de.keksuccino.konkrete.Konkrete:onClientSetup:61]: [KONKRETE] Ready to use!
+[17:01:27] [Worker-Main6/INFO]: [de.keksuccino.konkrete.PostLoadingHandler:runPostLoadingEvents:14]: [KONKRETE] Running PostLoadingEvents for mod: fancymenu
+[17:01:27] [Forge Version Check/INFO]: [goblintraders] Found status: BETA Current: 1.6.0 Target: 1.6.0
+[17:01:27] [Forge Version Check/INFO]: [bettercaves] Starting version check at https://raw.githubusercontent.com/yungnickyoung/YUNGs-Better-Caves/1.16/versions.json
+[17:01:27] [Placebo Patreon Wing Loader/INFO]: Loaded 4 patreon wings.
+[17:01:27] [Worker-Main6/INFO]: [de.keksuccino.konkrete.PostLoadingHandler:runPostLoadingEvents:20]: [KONKRETE] PostLoadingEvents completed for mod: fancymenu
+[17:01:27] [Worker-Main6/INFO]: [de.keksuccino.konkrete.PostLoadingHandler:runPostLoadingEvents:14]: [KONKRETE] Running PostLoadingEvents for mod: drippyloadingscreen
+[17:01:27] [Placebo Patreon Trail Loader/INFO]: Loaded 4 patreon trails.
+[17:01:27] [Forge Version Check/INFO]: [bettercaves] Found status: BETA Current: 1.16.4-1.1.2 Target: null
+[17:01:27] [Forge Version Check/INFO]: [colouredtooltips] Starting version check at https://updates.blamejared.com/get?n=colouredtooltips&gv=1.16.5
+[17:01:27] [Worker-Main6/INFO]: [de.keksuccino.konkrete.PostLoadingHandler:runPostLoadingEvents:20]: [KONKRETE] PostLoadingEvents completed for mod: drippyloadingscreen
+[17:01:27] [Forge Version Check/INFO]: [colouredtooltips] Found status: BETA_OUTDATED Current: 11.0.2 Target: 11.0.3
+[17:01:27] [Forge Version Check/INFO]: [defaultsettings] Starting version check at https://gist.githubusercontent.com/PT400C/be22046792a7859688f655f1a5f83975/raw/
+[17:01:28] [Forge Version Check/INFO]: [defaultsettings] Found status: BETA Current: 2.2.4 Target: null
+[17:01:28] [Forge Version Check/INFO]: [jeitweaker] Starting version check at https://updates.blamejared.com/get?n=JEITweaker&gv=1.16.5
+[17:01:28] [Forge Version Check/INFO]: [jeitweaker] Found status: BETA Current: 1.0.1.34 Target: 1.0.1.34
+[17:01:28] [Forge Version Check/INFO]: [crafttweaker] Starting version check at https://updates.blamejared.com/get?n=crafttweaker&gv=1.16.5
+[17:01:28] [Forge Version Check/INFO]: [crafttweaker] Found status: BETA_OUTDATED Current: 7.1.0.390 Target: 7.1.0.394
+[17:01:28] [Forge Version Check/INFO]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[17:01:28] [Forge Version Check/INFO]: [forge] Found status: UP_TO_DATE Current: 36.2.0 Target: null
+[17:01:28] [Forge Version Check/INFO]: [mousetweaks] Starting version check at http://play.sourceruns.org/yalter/MouseTweaks/update.json
+[17:01:29] [Forge Version Check/INFO]: [mousetweaks] Found status: BETA Current: 2.14 Target: null
+[17:01:29] [Forge Version Check/INFO]: [chunkanimator] Starting version check at https://github.com/Harleyoc1/ChunkAnimator/blob/1.16.5/version_info.json?raw=true
+[17:01:29] [Forge Version Check/INFO]: [chunkanimator] Found status: UP_TO_DATE Current: 1.16.5-1.2.4 Target: null
+[17:01:29] [Forge Version Check/INFO]: [createtweaker] Starting version check at https://updates.blamejared.com/get?n=createtweaker&gv=1.16.5
+[17:01:29] [Forge Version Check/INFO]: [createtweaker] Found status: BETA Current: 1.0.0.18 Target: 1.0.0.18
+[17:01:29] [Forge Version Check/INFO]: [betterburning] Starting version check at https://updates.blamejared.com/get?n=betterburning&gv=1.16.5
+[17:01:29] [Forge Version Check/INFO]: [betterburning] Found status: BETA_OUTDATED Current: 6.0.6 Target: 6.0.7
+[17:01:30] [Worker-Main3/WARN]: Texture minecraft:block/inv with size 1x1 limits mip level from 4 to 0
+[17:01:32] [Render thread/INFO]: Loading context 'create:context/contraption'
+[17:01:32] [Render thread/INFO]: Loading context 'create:context/contraption'
+[17:01:32] [Render thread/INFO]: Loading context 'flywheel:context/crumbling'
+[17:01:32] [Render thread/INFO]: Loading context 'flywheel:context/world'
+[17:01:32] [Render thread/INFO]: Loaded all shader programs.
+[17:01:34] [Render thread/INFO]: OpenAL initialized.
+[17:01:34] [Render thread/INFO]: Sound engine started
+[17:01:35] [Render thread/INFO]: Created: 256x128x0 jei:textures/atlas/gui.png-atlas
+[17:01:35] [Render thread/INFO]: Endimation Data Manager has loaded 0 Endimations
+[17:01:35] [Render thread/INFO]: Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[17:01:35] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[17:01:35] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[17:01:35] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[17:01:35] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/chest.png-atlas
+[17:01:35] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[17:01:35] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:mushroom with path antiqueatlas:textures/gui/tiles/mushroom.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:birch with path antiqueatlas:textures/gui/tiles/birch.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:nether_bridge with path antiqueatlas:textures/gui/tiles/nether_bridge.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:forest2 with path antiqueatlas:textures/gui/tiles/forest2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:forest3 with path antiqueatlas:textures/gui/tiles/forest3.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:plateau_mesa with path antiqueatlas:textures/gui/tiles/plateau_mesa.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:mega_taiga_hills with path antiqueatlas:textures/gui/tiles/mega_taiga_hills.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:savanna_cliffs_clouds with path antiqueatlas:textures/gui/tiles/savanna_cliffs_clouds.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:jungle with path antiqueatlas:textures/gui/tiles/jungle.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:nether_bridge_gate with path antiqueatlas:textures/gui/tiles/nether_bridge_gate.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:savanna_cliffs_clouds3 with path antiqueatlas:textures/gui/tiles/savanna_cliffs_clouds3.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:birch_hills with path antiqueatlas:textures/gui/tiles/birch_hills.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:hills_grass with path antiqueatlas:textures/gui/tiles/hills_grass.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:savanna_cliffs_clouds2 with path antiqueatlas:textures/gui/tiles/savanna_cliffs_clouds2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:ice_border with path antiqueatlas:textures/gui/tiles/ice_border.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:ravine2 with path antiqueatlas:textures/gui/tiles/ravine2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:mountains2 with path antiqueatlas:textures/gui/tiles/mountains2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:mega_spruce2 with path antiqueatlas:textures/gui/tiles/mega_spruce2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:mountains3 with path antiqueatlas:textures/gui/tiles/mountains3.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:mountains4 with path antiqueatlas:textures/gui/tiles/mountains4.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:plateau_trees_low with path antiqueatlas:textures/gui/tiles/plateau_trees_low.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:mountains5 with path antiqueatlas:textures/gui/tiles/mountains5.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:jungle_edge_hills2 with path antiqueatlas:textures/gui/tiles/jungle_edge_hills2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:plateau_grass with path antiqueatlas:textures/gui/tiles/plateau_grass.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:jungle_edge_hills3 with path antiqueatlas:textures/gui/tiles/jungle_edge_hills3.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:jungle_hills2 with path antiqueatlas:textures/gui/tiles/jungle_hills2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:forest_flowers with path antiqueatlas:textures/gui/tiles/forest_flowers.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:mountains with path antiqueatlas:textures/gui/tiles/mountains.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:dense_forest2 with path antiqueatlas:textures/gui/tiles/dense_forest2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:birch2 with path antiqueatlas:textures/gui/tiles/birch2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:snow with path antiqueatlas:textures/gui/tiles/snow.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:mesa3 with path antiqueatlas:textures/gui/tiles/mesa3.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:mesa2 with path antiqueatlas:textures/gui/tiles/mesa2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:nether_hall with path antiqueatlas:textures/gui/tiles/nether_hall.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:mesa4 with path antiqueatlas:textures/gui/tiles/mesa4.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:jungle_edge with path antiqueatlas:textures/gui/tiles/jungle_edge.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:test with path antiqueatlas:textures/gui/tiles/test.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:end_island_plants with path antiqueatlas:textures/gui/tiles/end_island_plants.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:snow_caps with path antiqueatlas:textures/gui/tiles/snow_caps.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:forest_hills3 with path antiqueatlas:textures/gui/tiles/forest_hills3.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:savanna_cliffs3 with path antiqueatlas:textures/gui/tiles/savanna_cliffs3.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:forest_hills2 with path antiqueatlas:textures/gui/tiles/forest_hills2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:savanna_cliffs2 with path antiqueatlas:textures/gui/tiles/savanna_cliffs2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:savanna2 with path antiqueatlas:textures/gui/tiles/savanna2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:sunflowers with path antiqueatlas:textures/gui/tiles/sunflowers.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:savanna3 with path antiqueatlas:textures/gui/tiles/savanna3.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:jungle_cliffs with path antiqueatlas:textures/gui/tiles/jungle_cliffs.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:bushes_cliffs with path antiqueatlas:textures/gui/tiles/bushes_cliffs.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:water with path antiqueatlas:textures/gui/tiles/water.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:nether_wall with path antiqueatlas:textures/gui/tiles/nether_wall.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:swamp_hills2 with path antiqueatlas:textures/gui/tiles/swamp_hills2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:forest_sparse2 with path antiqueatlas:textures/gui/tiles/forest_sparse2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:forest_sparse3 with path antiqueatlas:textures/gui/tiles/forest_sparse3.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:ice_spikes with path antiqueatlas:textures/gui/tiles/ice_spikes.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:savanna with path antiqueatlas:textures/gui/tiles/savanna.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:swamp_hills5 with path antiqueatlas:textures/gui/tiles/swamp_hills5.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:swamp_hills4 with path antiqueatlas:textures/gui/tiles/swamp_hills4.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:swamp_hills3 with path antiqueatlas:textures/gui/tiles/swamp_hills3.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:hills_cacti with path antiqueatlas:textures/gui/tiles/hills_cacti.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:lava_shore with path antiqueatlas:textures/gui/tiles/lava_shore.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:snow_hills2 with path antiqueatlas:textures/gui/tiles/snow_hills2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:pines_hills with path antiqueatlas:textures/gui/tiles/pines_hills.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:birch_hills2 with path antiqueatlas:textures/gui/tiles/birch_hills2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:house with path antiqueatlas:textures/gui/tiles/house.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:jungle_edge2 with path antiqueatlas:textures/gui/tiles/jungle_edge2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:mesa with path antiqueatlas:textures/gui/tiles/mesa.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:forest_flowers2 with path antiqueatlas:textures/gui/tiles/forest_flowers2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:lava with path antiqueatlas:textures/gui/tiles/lava.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:nether_tower with path antiqueatlas:textures/gui/tiles/nether_tower.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:basalt_columns3 with path antiqueatlas:textures/gui/tiles/basalt_columns3.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:forest_flowers3 with path antiqueatlas:textures/gui/tiles/forest_flowers3.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:jungle_edge3 with path antiqueatlas:textures/gui/tiles/jungle_edge3.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:sand_bushes with path antiqueatlas:textures/gui/tiles/sand_bushes.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:basalt_columns2 with path antiqueatlas:textures/gui/tiles/basalt_columns2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:shore with path antiqueatlas:textures/gui/tiles/shore.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:basalt_columns1 with path antiqueatlas:textures/gui/tiles/basalt_columns1.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:hut with path antiqueatlas:textures/gui/tiles/hut.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:fence with path antiqueatlas:textures/gui/tiles/fence.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:jungle_edge_hills with path antiqueatlas:textures/gui/tiles/jungle_edge_hills.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:snow_pines_hills2 with path antiqueatlas:textures/gui/tiles/snow_pines_hills2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:snow_pines_hills3 with path antiqueatlas:textures/gui/tiles/snow_pines_hills3.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:dense_birch with path antiqueatlas:textures/gui/tiles/dense_birch.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:mega_taiga2 with path antiqueatlas:textures/gui/tiles/mega_taiga2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:pines_hills3 with path antiqueatlas:textures/gui/tiles/pines_hills3.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:snow_pines3 with path antiqueatlas:textures/gui/tiles/snow_pines3.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:pines_hills2 with path antiqueatlas:textures/gui/tiles/pines_hills2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:bryce2 with path antiqueatlas:textures/gui/tiles/bryce2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:snow_pines_hills with path antiqueatlas:textures/gui/tiles/snow_pines_hills.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:bryce4 with path antiqueatlas:textures/gui/tiles/bryce4.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:bryce3 with path antiqueatlas:textures/gui/tiles/bryce3.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:jungle_cliffs2 with path antiqueatlas:textures/gui/tiles/jungle_cliffs2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:tall_birch with path antiqueatlas:textures/gui/tiles/tall_birch.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:well with path antiqueatlas:textures/gui/tiles/well.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:plateau_grass3 with path antiqueatlas:textures/gui/tiles/plateau_grass3.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:plateau_grass2 with path antiqueatlas:textures/gui/tiles/plateau_grass2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:end_void with path antiqueatlas:textures/gui/tiles/end_void.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:snow_pines2 with path antiqueatlas:textures/gui/tiles/snow_pines2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:tall_birch_hills2 with path antiqueatlas:textures/gui/tiles/tall_birch_hills2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:butchers_shop with path antiqueatlas:textures/gui/tiles/butchers_shop.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:mega_taiga with path antiqueatlas:textures/gui/tiles/mega_taiga.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:ice_noborder with path antiqueatlas:textures/gui/tiles/ice_noborder.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:snow1 with path antiqueatlas:textures/gui/tiles/snow1.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:snow2 with path antiqueatlas:textures/gui/tiles/snow2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:pines with path antiqueatlas:textures/gui/tiles/pines.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:forest_hills with path antiqueatlas:textures/gui/tiles/forest_hills.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:forest_sparse with path antiqueatlas:textures/gui/tiles/forest_sparse.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:mega_spruce_hills with path antiqueatlas:textures/gui/tiles/mega_spruce_hills.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:snow5 with path antiqueatlas:textures/gui/tiles/snow5.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:snow_hills with path antiqueatlas:textures/gui/tiles/snow_hills.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:snow6 with path antiqueatlas:textures/gui/tiles/snow6.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:snow3 with path antiqueatlas:textures/gui/tiles/snow3.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:farmland_s with path antiqueatlas:textures/gui/tiles/farmland_s.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:snow4 with path antiqueatlas:textures/gui/tiles/snow4.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:nether_throne with path antiqueatlas:textures/gui/tiles/nether_throne.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:cliffs with path antiqueatlas:textures/gui/tiles/cliffs.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:bryce with path antiqueatlas:textures/gui/tiles/bryce.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:farmland_l with path antiqueatlas:textures/gui/tiles/farmland_l.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:ruined_portal with path antiqueatlas:textures/gui/tiles/ruined_portal.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:pines3 with path antiqueatlas:textures/gui/tiles/pines3.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:plateau_savanna2 with path antiqueatlas:textures/gui/tiles/plateau_savanna2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:end_island2 with path antiqueatlas:textures/gui/tiles/end_island2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:nether_bridge_end_z with path antiqueatlas:textures/gui/tiles/nether_bridge_end_z.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:plateau_savanna3 with path antiqueatlas:textures/gui/tiles/plateau_savanna3.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:nether_bridge_end_x with path antiqueatlas:textures/gui/tiles/nether_bridge_end_x.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:pines2 with path antiqueatlas:textures/gui/tiles/pines2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:plateau_trees with path antiqueatlas:textures/gui/tiles/plateau_trees.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:end_island_plants2 with path antiqueatlas:textures/gui/tiles/end_island_plants2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:dense_forest with path antiqueatlas:textures/gui/tiles/dense_forest.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:house_small with path antiqueatlas:textures/gui/tiles/house_small.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:sand2 with path antiqueatlas:textures/gui/tiles/sand2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:sand3 with path antiqueatlas:textures/gui/tiles/sand3.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:smithy with path antiqueatlas:textures/gui/tiles/smithy.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:hills with path antiqueatlas:textures/gui/tiles/hills.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:l_house with path antiqueatlas:textures/gui/tiles/l_house.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:snow_pines with path antiqueatlas:textures/gui/tiles/snow_pines.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:tall_birch_hills with path antiqueatlas:textures/gui/tiles/tall_birch_hills.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:ice_spikes2 with path antiqueatlas:textures/gui/tiles/ice_spikes2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:mushroom2 with path antiqueatlas:textures/gui/tiles/mushroom2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:savanna_cliffs with path antiqueatlas:textures/gui/tiles/savanna_cliffs.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:plateau_mesa_low with path antiqueatlas:textures/gui/tiles/plateau_mesa_low.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:basalt_columns_lava1 with path antiqueatlas:textures/gui/tiles/basalt_columns_lava1.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:nether_fort_stairs with path antiqueatlas:textures/gui/tiles/nether_fort_stairs.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:grass with path antiqueatlas:textures/gui/tiles/grass.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:hills_bushes with path antiqueatlas:textures/gui/tiles/hills_bushes.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:swamp with path antiqueatlas:textures/gui/tiles/swamp.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:cacti with path antiqueatlas:textures/gui/tiles/cacti.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:sunflowers2 with path antiqueatlas:textures/gui/tiles/sunflowers2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:swamp2 with path antiqueatlas:textures/gui/tiles/swamp2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:plateau_savanna with path antiqueatlas:textures/gui/tiles/plateau_savanna.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:swamp3 with path antiqueatlas:textures/gui/tiles/swamp3.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:sand with path antiqueatlas:textures/gui/tiles/sand.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:swamp6 with path antiqueatlas:textures/gui/tiles/swamp6.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:water2 with path antiqueatlas:textures/gui/tiles/water2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:lava_shore2 with path antiqueatlas:textures/gui/tiles/lava_shore2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:swamp4 with path antiqueatlas:textures/gui/tiles/swamp4.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:dense_forest_hills with path antiqueatlas:textures/gui/tiles/dense_forest_hills.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:swamp5 with path antiqueatlas:textures/gui/tiles/swamp5.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:tall_birch2 with path antiqueatlas:textures/gui/tiles/tall_birch2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:jungle2 with path antiqueatlas:textures/gui/tiles/jungle2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:village_torch with path antiqueatlas:textures/gui/tiles/village_torch.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:jungle_hills with path antiqueatlas:textures/gui/tiles/jungle_hills.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:cliffs_clouds with path antiqueatlas:textures/gui/tiles/cliffs_clouds.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:rock_shore with path antiqueatlas:textures/gui/tiles/rock_shore.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:library with path antiqueatlas:textures/gui/tiles/library.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:mega_spruce_hills2 with path antiqueatlas:textures/gui/tiles/mega_spruce_hills2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:swamp_hills with path antiqueatlas:textures/gui/tiles/swamp_hills.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:plateau_mesa2 with path antiqueatlas:textures/gui/tiles/plateau_mesa2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:dense_forest_hills2 with path antiqueatlas:textures/gui/tiles/dense_forest_hills2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:mega_spruce with path antiqueatlas:textures/gui/tiles/mega_spruce.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:end_island with path antiqueatlas:textures/gui/tiles/end_island.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:shore2 with path antiqueatlas:textures/gui/tiles/shore2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:ravine with path antiqueatlas:textures/gui/tiles/ravine.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:lava2 with path antiqueatlas:textures/gui/tiles/lava2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:shore3 with path antiqueatlas:textures/gui/tiles/shore3.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:grass3 with path antiqueatlas:textures/gui/tiles/grass3.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:church with path antiqueatlas:textures/gui/tiles/church.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:grass2 with path antiqueatlas:textures/gui/tiles/grass2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:forest_sparse_hills with path antiqueatlas:textures/gui/tiles/forest_sparse_hills.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:grass4 with path antiqueatlas:textures/gui/tiles/grass4.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:nether_bridge_x with path antiqueatlas:textures/gui/tiles/nether_bridge_x.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:mega_taiga_hills2 with path antiqueatlas:textures/gui/tiles/mega_taiga_hills2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:nether_bridge_z with path antiqueatlas:textures/gui/tiles/nether_bridge_z.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:forest with path antiqueatlas:textures/gui/tiles/forest.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:forest_sparse_hills2 with path antiqueatlas:textures/gui/tiles/forest_sparse_hills2.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:village_path_z with path antiqueatlas:textures/gui/tiles/village_path_z.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:village_path_x with path antiqueatlas:textures/gui/tiles/village_path_x.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:forest_sparse_hills3 with path antiqueatlas:textures/gui/tiles/forest_sparse_hills3.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:cave_walls with path antiqueatlas:textures/gui/tiles/cave_walls.png
+[17:01:37] [Render thread/INFO]: Loaded texture antiqueatlas:plateau_mesa_low2 with path antiqueatlas:textures/gui/tiles/plateau_mesa_low2.png
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:tall_birch with 2 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:mushroom with 2 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:well with 1 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:birch with 2 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:end_void with 1 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:nether_bridge with 1 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:butchers_shop with 1 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:mega_taiga with 3 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:pines with 3 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:forest_hills with 3 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:mega_spruce_hills with 2 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:plateau_mesa with 2 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:snow_hills with 2 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:plains with 4 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:mega_taiga_hills with 3 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:nether_throne with 1 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:farmland_small with 1 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:bryce with 4 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:ruined_portal with 1 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:jungle with 2 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:nether_bridge_gate with 1 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:birch_hills with 2 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:soul_sand_valley with 3 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:nether_bridge_end_z with 1 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:swamp_water with 5 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:nether_bridge_end_x with 1 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:dense_forest with 2 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:house_small with 1 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:smithy with 1 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:forest_flowers with 3 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:hills with 4 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:l_house with 1 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:mountains with 8 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:snow_pines with 3 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:tall_birch_hills with 2 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:snow with 15 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:savanna_cliffs with 4 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:nether_hall with 1 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:plateau_mesa_low with 2 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:mountains_all with 8 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:nether_fort_stairs with 1 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:jungle_edge with 6 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:swamp with 8 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:plateau_savanna with 9 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:test with 1 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:end_island_plants with 3 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:basalt_deltas with 4 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:sunflowers with 4 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:dense_forest_hills with 2 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:jungle_cliffs with 3 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:plateau_mesa_trees with 3 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:farmland_large with 1 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:sparse_forest with 3 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:village_torch with 1 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:water with 2 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:nether_wall with 1 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:ice_spikes with 2 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:jungle_hills with 2 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:savanna with 10 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:mountains_naked with 5 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:desert_hills with 14 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:rock_shore with 1 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:library with 1 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:lava_shore with 2 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:swamp_hills with 5 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:mountains_snow_caps with 5 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:pines_hills with 3 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:house with 1 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:mesa with 5 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:lava with 2 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:mega_spruce with 2 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:nether_tower with 1 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:end_island with 2 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:ravine with 2 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:shore with 3 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:hut with 1 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:plateau_mesa_trees_low with 3 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:church with 1 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:fence with 1 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:jungle_edge_hills with 5 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:plateau_savanna_m with 9 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:sparse_forest_hills with 3 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:dense_birch with 1 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:ice with 1 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:nether_bridge_x with 1 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:nether_bridge_z with 1 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:forest with 3 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:village_path_z with 1 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:snow_pines_hills with 3 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:desert with 9 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:village_path_x with 1 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded texture set antiqueatlas:cave_walls with 1 custom texture(s)
+[17:01:37] [Render thread/INFO]: Loaded water texture `antiqueatlas:water` for shore texture `antiqueatlas:rock_shore` texture
+[17:01:37] [Render thread/INFO]: Loaded water texture `antiqueatlas:lava` for shore texture `antiqueatlas:lava_shore` texture
+[17:01:37] [Render thread/INFO]: Loaded water texture `antiqueatlas:water` for shore texture `antiqueatlas:shore` texture
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:ice for tile minecraft:frozen_ocean
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:farmland_small for tile antiqueatlas:npc_village_farmland_small
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:plains for tile astrotale:glowing_grasslands
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:nether_bridge for tile antiqueatlas:nether_bridge
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:mountains for tile minecraft:modified_gravelly_mountains
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:swamp for tile minecraft:swamp
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:basalt_deltas for tile minecraft:basalt_deltas
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:savanna for tile astrotale:dragon_graveyards
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:birch for tile astrotale:amber_land
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:desert_hills for tile minecraft:desert_hills
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:snow_pines_hills for tile minecraft:snowy_taiga_hills
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:forest for tile minecraft:dark_forest
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:jungle_hills for tile minecraft:jungle_hills
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:forest for tile astrotale:chorus_forest
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:shore for tile minecraft:mushroom_field_shore
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:snow for tile minecraft:snowy_tundra
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:ice for tile minecraft:frozen_river
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:desert for tile astrotale:megalake
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:mega_spruce for tile minecraft:giant_spruce_taiga
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:jungle for tile astrotale:umbrella_jungle
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:nether_bridge_gate for tile antiqueatlas:nether_bridge_gate
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:butchers_shop for tile antiqueatlas:npc_village_butchers_shop
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:water for tile minecraft:deep_ocean
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:desert for tile astrotale:megalake_grove
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:plains for tile astrotale:dry_shrubland
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:cave_walls for tile minecraft:nether_wastes
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:water for tile minecraft:deep_lukewarm_ocean
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:snow_pines for tile minecraft:snowy_taiga
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:mountains_all for tile minecraft:mountain_edge
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:water for tile minecraft:river
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:end_void for tile minecraft:the_void
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:nether_hall for tile antiqueatlas:nether_hall
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:forest_hills for tile minecraft:wooded_hills
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:water for tile minecraft:deep_cold_ocean
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:rock_shore for tile minecraft:stone_shore
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:jungle_hills for tile minecraft:bamboo_jungle_hills
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:end_island_plants for tile minecraft:end_highlands
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:tall_birch for tile minecraft:tall_birch_forest
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:end_island_plants for tile antiqueatlas:end_island_plants
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:plateau_mesa for tile minecraft:modified_wooded_badlands_plateau
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:mesa for tile minecraft:eroded_badlands
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:nether_wall for tile antiqueatlas:nether_wall
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:house_small for tile antiqueatlas:npc_village_small_house
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:plains for tile minecraft:plains
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:birch_hills for tile minecraft:birch_forest_hills
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:plateau_mesa for tile minecraft:modified_badlands_plateau
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:shore for tile minecraft:snowy_beach
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:lava_shore for tile antiqueatlas:lava_shore
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:jungle for tile minecraft:jungle
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:lava for tile antiqueatlas:lava
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:nether_tower for tile antiqueatlas:nether_tower
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:water for tile minecraft:ocean
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:water for tile minecraft:cold_ocean
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:jungle for tile minecraft:warped_forest
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:mesa for tile minecraft:badlands
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:plateau_mesa_trees for tile minecraft:wooded_badlands_plateau
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:tall_birch_hills for tile minecraft:tall_birch_hills
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:water for tile minecraft:deep_warm_ocean
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:snow_pines_hills for tile minecraft:snowy_taiga_mountains
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:mega_spruce for tile minecraft:giant_tree_taiga_hills
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:savanna_cliffs for tile minecraft:savanna_plateau
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:end_void for tile antiqueatlas:end_void
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:pines for tile minecraft:taiga
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:pines_hills for tile minecraft:taiga_hills
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:mountains_all for tile minecraft:wooded_mountains
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:jungle_edge for tile minecraft:jungle_edge
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:savanna for tile minecraft:savanna
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:smithy for tile antiqueatlas:npc_village_smithy
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:mega_taiga for tile minecraft:giant_tree_taiga
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:ice_spikes for tile minecraft:ice_spikes
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:forest for tile minecraft:crimson_forest
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:nether_throne for tile antiqueatlas:nether_throne
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:desert for tile astrotale:dust_wastelands
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:ruined_portal for tile antiqueatlas:ruined_portal
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:water for tile minecraft:lukewarm_ocean
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:hut for tile antiqueatlas:npc_village_hut
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:mushroom for tile minecraft:mushroom_fields
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:water for tile minecraft:warm_ocean
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:forest for tile minecraft:forest
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:end_island for tile minecraft:end_midlands
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:nether_bridge_end_z for tile antiqueatlas:nether_bridge_end_z
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:swamp_water for tile antiqueatlas:swamp_water
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:nether_bridge_end_x for tile antiqueatlas:nether_bridge_end_x
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:farmland_large for tile antiqueatlas:npc_village_farmland_large
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:sunflowers for tile minecraft:sunflower_plains
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:mountains for tile minecraft:gravelly_mountains
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:forest_flowers for tile minecraft:flower_forest
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:savanna_cliffs for tile minecraft:shattered_savanna_plateau
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:desert for tile minecraft:desert
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:shore for tile minecraft:beach
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:ice_spikes for tile minecraft:deep_frozen_ocean
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:l_house for tile antiqueatlas:npc_village_l_house
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:nether_fort_stairs for tile antiqueatlas:nether_fort_stairs
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:savanna_cliffs for tile minecraft:shattered_savanna
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:desert for tile astrotale:neon_oasis
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:desert_hills for tile minecraft:desert_lakes
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:jungle for tile minecraft:bamboo_jungle
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:forest_hills for tile minecraft:dark_forest_hills
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:end_island for tile minecraft:end_barrens
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:dense_forest for tile astrotale:blossoming_spires
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:forest for tile astrotale:foggy_mushroomland
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:end_island for tile minecraft:small_end_islands
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:plateau_mesa for tile minecraft:badlands_plateau
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:end_island for tile minecraft:the_end
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:library for tile antiqueatlas:npc_village_library
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:pines_hills for tile minecraft:taiga_mountains
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:jungle_cliffs for tile minecraft:modified_jungle_edge
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:mega_spruce_hills for tile minecraft:giant_spruce_taiga_hills
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:church for tile antiqueatlas:npc_village_church
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:forest for tile astrotale:lantern_woods
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:swamp_hills for tile minecraft:swamp_hills
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:end_island for tile antiqueatlas:end_island
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:birch for tile minecraft:birch_forest
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:mountains_all for tile minecraft:mountains
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:ravine for tile antiqueatlas:ravine
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:soul_sand_valley for tile minecraft:soul_sand_valley
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:village_path_z for tile antiqueatlas:npc_village_path_z
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:nether_bridge_x for tile antiqueatlas:nether_bridge_x
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:village_torch for tile antiqueatlas:npc_village_torch
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:dense_forest for tile astrotale:shadow_forest
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:nether_bridge_z for tile antiqueatlas:nether_bridge_z
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:village_path_x for tile antiqueatlas:npc_village_path_x
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:well for tile antiqueatlas:npc_village_well
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:jungle_hills for tile minecraft:modified_jungle
+[17:01:37] [Render thread/INFO]: Using texture set antiqueatlas:mountains_snow_caps for tile minecraft:snowy_mountains
+[17:01:37] [Render thread/INFO]: Auto-registered standard texture set for biome betterendforge:megalake: antiqueatlas:end_island
+[17:01:37] [Render thread/INFO]: Auto-registered standard texture set for biome betterendforge:crystal_mountains: antiqueatlas:end_island
+[17:01:37] [Render thread/INFO]: Auto-registered standard texture set for biome betterendforge:foggy_mushroomland: antiqueatlas:end_island
+[17:01:37] [Render thread/INFO]: Auto-registered standard texture set for biome betterendforge:dust_wastelands: antiqueatlas:end_island
+[17:01:37] [Render thread/INFO]: Auto-registered standard texture set for biome betterendforge:chorus_forest: antiqueatlas:end_island_plants
+[17:01:37] [Render thread/INFO]: Auto-registered standard texture set for biome betterendforge:shadow_forest: antiqueatlas:end_island
+[17:01:37] [Render thread/INFO]: Auto-registered standard texture set for biome betterendforge:blossoming_spires: antiqueatlas:end_island
+[17:01:37] [Render thread/INFO]: Auto-registered standard texture set for biome betterendforge:sulphur_springs: antiqueatlas:end_island
+[17:01:37] [Render thread/INFO]: Auto-registered standard texture set for biome betterendforge:amber_land: antiqueatlas:end_island
+[17:01:37] [Render thread/INFO]: Auto-registered standard texture set for biome betterendforge:umbrella_jungle: antiqueatlas:end_island
+[17:01:37] [Render thread/INFO]: Auto-registered standard texture set for biome betterendforge:glowing_grasslands: antiqueatlas:end_island
+[17:01:37] [Render thread/INFO]: Auto-registered standard texture set for biome betterendforge:dragon_graveyards: antiqueatlas:end_island
+[17:01:37] [Render thread/INFO]: Auto-registered standard texture set for biome betterendforge:lantern_woods: antiqueatlas:end_island
+[17:01:37] [Render thread/INFO]: Auto-registered standard texture set for biome betterendforge:dry_shrubland: antiqueatlas:end_island
+[17:01:37] [Render thread/INFO]: Auto-registered standard texture set for biome betterendforge:ice_starfield: antiqueatlas:end_island
+[17:01:37] [Render thread/INFO]: Auto-registered standard texture set for biome betterendforge:empty_end_cave: antiqueatlas:end_void
+[17:01:37] [Render thread/INFO]: Auto-registered standard texture set for biome betterendforge:empty_smaragdant_cave: antiqueatlas:end_void
+[17:01:37] [Render thread/INFO]: Auto-registered standard texture set for biome betterendforge:lush_smaragdant_cave: antiqueatlas:end_void
+[17:01:37] [Render thread/INFO]: Auto-registered standard texture set for biome betterendforge:empty_aurora_cave: antiqueatlas:end_void
+[17:01:37] [Render thread/INFO]: Auto-registered standard texture set for biome betterendforge:lush_aurora_cave: antiqueatlas:end_void
+[17:01:37] [Render thread/INFO]: Auto-registered standard texture set for biome betterendforge:megalake_grove: antiqueatlas:end_island
+[17:01:37] [Render thread/INFO]: Auto-registered standard texture set for biome betterendforge:painted_mountains: antiqueatlas:end_island
+[17:01:37] [Render thread/INFO]: Auto-registered standard texture set for biome betterendforge:neon_oasis: antiqueatlas:end_island
+[17:01:37] [Render thread/INFO]: Auto-registered standard texture set for biome endergetic:poise_forest: antiqueatlas:end_island
+[17:01:37] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[17:01:37] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[17:01:37] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[17:01:42] [Render thread/INFO]: Optifine is not present, disable AA
+[17:02:45] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: java.io.FileNotFoundException: D:\Modpacks\Instances\Astrotale\config\fancymenu\customguis\menuscreens (Отказано в доступе)
+[17:02:45] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at java.io.FileInputStream.open0(Native Method)
+[17:02:45] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at java.io.FileInputStream.open(FileInputStream.java:195)
+[17:02:45] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+[17:02:45] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at de.keksuccino.konkrete.file.FileUtils.getFileLines(FileUtils.java:58)
+[17:02:45] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at de.keksuccino.fancymenu.menu.fancy.guicreator.CustomGuiLoader.loadCustomGuis(CustomGuiLoader.java:34)
+[17:02:45] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at de.keksuccino.fancymenu.menu.fancy.helper.CustomizationHelper.reloadSystemAndMenu(CustomizationHelper.java:69)
+[17:02:45] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at de.keksuccino.fancymenu.menu.fancy.helper.CustomizationHelperUI.lambda$updateUI$0(CustomizationHelperUI.java:99)
+[17:02:45] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at de.keksuccino.fancymenu.menu.fancy.helper.CustomizationHelperUI$$Lambda$7696/1098137588.onPress(Unknown Source)
+[17:02:45] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at de.keksuccino.konkrete.gui.content.AdvancedButton.func_230930_b_(AdvancedButton.java:61)
+[17:02:45] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at net.minecraft.client.gui.widget.button.AbstractButton.func_230982_a_(SourceFile:16)
+[17:02:45] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at de.keksuccino.konkrete.gui.content.AdvancedButton.func_230431_b_(AdvancedButton.java:146)
+[17:02:45] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at net.minecraft.client.gui.widget.Widget.func_230430_a_(Widget.java:79)
+[17:02:45] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at de.keksuccino.konkrete.gui.content.ContextMenu.render(ContextMenu.java:110)
+[17:02:45] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at de.keksuccino.fancymenu.menu.fancy.helper.ui.FMContextMenu.render(FMContextMenu.java:84)
+[17:02:45] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at de.keksuccino.konkrete.gui.content.ContextMenu.render(ContextMenu.java:138)
+[17:02:45] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at de.keksuccino.fancymenu.menu.fancy.helper.ui.MenuBar.render(MenuBar.java:283)
+[17:02:45] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at de.keksuccino.fancymenu.menu.fancy.helper.CustomizationHelperUI.render(CustomizationHelperUI.java:448)
+[17:02:45] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at de.keksuccino.fancymenu.menu.fancy.helper.CustomizationHelper.onRenderPost(CustomizationHelper.java:47)
+[17:02:45] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at net.minecraftforge.eventbus.ASMEventHandler_286_CustomizationHelper_onRenderPost_Post.invoke(.dynamic)
+[17:02:45] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85)
+[17:02:45] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at net.minecraftforge.eventbus.EventBus$$Lambda$2557/597842823.invoke(Unknown Source)
+[17:02:45] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302)
+[17:02:45] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283)
+[17:02:45] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at net.minecraftforge.client.ForgeHooksClient.drawScreen(ForgeHooksClient.java:303)
+[17:02:45] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at net.minecraft.client.renderer.GameRenderer.func_195458_a(GameRenderer.java:492)
+[17:02:45] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at net.minecraft.client.Minecraft.func_195542_b(Minecraft.java:976)
+[17:02:45] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:607)
+[17:02:45] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at net.minecraft.client.main.Main.main(Main.java:184)
+[17:02:45] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[17:02:45] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[17:02:45] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[17:02:45] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[17:02:45] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:51)
+[17:02:45] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at net.minecraftforge.fml.loading.FMLClientLaunchProvider$$Lambda$447/156855528.call(Unknown Source)
+[17:02:45] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
+[17:02:45] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
+[17:02:45] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72)
+[17:02:45] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82)
+[17:02:45] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66)
+[17:02:48] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: java.io.FileNotFoundException: D:\Modpacks\Instances\Astrotale\config\fancymenu\customguis\menuscreens (Отказано в доступе)
+[17:02:48] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at java.io.FileInputStream.open0(Native Method)
+[17:02:48] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at java.io.FileInputStream.open(FileInputStream.java:195)
+[17:02:48] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+[17:02:48] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at de.keksuccino.konkrete.file.FileUtils.getFileLines(FileUtils.java:58)
+[17:02:48] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at de.keksuccino.fancymenu.menu.fancy.guicreator.CustomGuiLoader.loadCustomGuis(CustomGuiLoader.java:34)
+[17:02:48] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at de.keksuccino.fancymenu.menu.fancy.helper.CustomizationHelper.reloadSystemAndMenu(CustomizationHelper.java:69)
+[17:02:48] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at de.keksuccino.fancymenu.menu.fancy.helper.CustomizationHelperUI.lambda$updateUI$0(CustomizationHelperUI.java:103)
+[17:02:48] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at de.keksuccino.fancymenu.menu.fancy.helper.CustomizationHelperUI$$Lambda$7696/1098137588.onPress(Unknown Source)
+[17:02:48] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at de.keksuccino.konkrete.gui.content.AdvancedButton.func_230930_b_(AdvancedButton.java:61)
+[17:02:48] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at net.minecraft.client.gui.widget.button.AbstractButton.func_230982_a_(SourceFile:16)
+[17:02:48] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at de.keksuccino.konkrete.gui.content.AdvancedButton.func_230431_b_(AdvancedButton.java:146)
+[17:02:48] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at net.minecraft.client.gui.widget.Widget.func_230430_a_(Widget.java:79)
+[17:02:48] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at de.keksuccino.konkrete.gui.content.ContextMenu.render(ContextMenu.java:110)
+[17:02:48] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at de.keksuccino.fancymenu.menu.fancy.helper.ui.FMContextMenu.render(FMContextMenu.java:84)
+[17:02:48] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at de.keksuccino.konkrete.gui.content.ContextMenu.render(ContextMenu.java:138)
+[17:02:48] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at de.keksuccino.fancymenu.menu.fancy.helper.ui.MenuBar.render(MenuBar.java:283)
+[17:02:48] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at de.keksuccino.fancymenu.menu.fancy.helper.CustomizationHelperUI.render(CustomizationHelperUI.java:448)
+[17:02:48] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at de.keksuccino.fancymenu.menu.fancy.helper.CustomizationHelper.onRenderPost(CustomizationHelper.java:47)
+[17:02:48] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at net.minecraftforge.eventbus.ASMEventHandler_286_CustomizationHelper_onRenderPost_Post.invoke(.dynamic)
+[17:02:48] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85)
+[17:02:48] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at net.minecraftforge.eventbus.EventBus$$Lambda$2557/597842823.invoke(Unknown Source)
+[17:02:48] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302)
+[17:02:48] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283)
+[17:02:48] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at net.minecraftforge.client.ForgeHooksClient.drawScreen(ForgeHooksClient.java:303)
+[17:02:48] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at net.minecraft.client.renderer.GameRenderer.func_195458_a(GameRenderer.java:492)
+[17:02:48] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at net.minecraft.client.Minecraft.func_195542_b(Minecraft.java:976)
+[17:02:48] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:607)
+[17:02:48] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at net.minecraft.client.main.Main.main(Main.java:184)
+[17:02:48] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[17:02:48] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[17:02:48] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[17:02:48] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[17:02:48] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:51)
+[17:02:48] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at net.minecraftforge.fml.loading.FMLClientLaunchProvider$$Lambda$447/156855528.call(Unknown Source)
+[17:02:48] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
+[17:02:48] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
+[17:02:48] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72)
+[17:02:48] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82)
+[17:02:48] [Render thread/INFO]: [de.keksuccino.konkrete.file.FileUtils:getFileLines:66]: 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66)
+[17:02:57] [Render thread/ERROR]: Error adding element: Base value out of range: 256 [-10-128]
+[17:02:57] [Render thread/INFO]: [de.keksuccino.fancymenu.menu.button.ButtonCache:updateButtons:134]: 
+[17:02:57] [Render thread/INFO]: [de.keksuccino.fancymenu.menu.button.ButtonCache:updateButtons:135]: ## WARNING [FANCYMENU]: Overlapping buttons found! ##
+[17:02:57] [Render thread/INFO]: [de.keksuccino.fancymenu.menu.button.ButtonCache:updateButtons:136]: At: X=101 Y=100!
+[17:02:57] [Render thread/INFO]: [de.keksuccino.fancymenu.menu.button.ButtonCache:updateButtons:137]: Labels: Generate Structures: ON, Game Mode: Survival
+[17:02:57] [Render thread/INFO]: [de.keksuccino.fancymenu.menu.button.ButtonCache:updateButtons:138]: 
+[17:02:57] [Render thread/INFO]: [de.keksuccino.fancymenu.menu.button.ButtonCache:updateButtons:139]: If one or both of these buttons are added by a mod, please contact the developer(s) to fix this!
+[17:02:57] [Render thread/INFO]: [de.keksuccino.fancymenu.menu.button.ButtonCache:updateButtons:140]: FancyMenu cannot customize overlapping buttons!
+[17:02:57] [Render thread/INFO]: [de.keksuccino.fancymenu.menu.button.ButtonCache:updateButtons:141]: #####################################################
+[17:02:57] [Render thread/INFO]: [de.keksuccino.fancymenu.menu.button.ButtonCache:updateButtons:142]: 
+[17:02:57] [Render thread/INFO]: [de.keksuccino.fancymenu.menu.button.ButtonCache:updateButtons:134]: 
+[17:02:57] [Render thread/INFO]: [de.keksuccino.fancymenu.menu.button.ButtonCache:updateButtons:135]: ## WARNING [FANCYMENU]: Overlapping buttons found! ##
+[17:02:57] [Render thread/INFO]: [de.keksuccino.fancymenu.menu.button.ButtonCache:updateButtons:136]: At: X=261 Y=100!
+[17:02:57] [Render thread/INFO]: [de.keksuccino.fancymenu.menu.button.ButtonCache:updateButtons:137]: Labels: World Type: Default, Difficulty: Normal
+[17:02:57] [Render thread/INFO]: [de.keksuccino.fancymenu.menu.button.ButtonCache:updateButtons:138]: 
+[17:02:57] [Render thread/INFO]: [de.keksuccino.fancymenu.menu.button.ButtonCache:updateButtons:139]: If one or both of these buttons are added by a mod, please contact the developer(s) to fix this!
+[17:02:57] [Render thread/INFO]: [de.keksuccino.fancymenu.menu.button.ButtonCache:updateButtons:140]: FancyMenu cannot customize overlapping buttons!
+[17:02:57] [Render thread/INFO]: [de.keksuccino.fancymenu.menu.button.ButtonCache:updateButtons:141]: #####################################################
+[17:02:57] [Render thread/INFO]: [de.keksuccino.fancymenu.menu.button.ButtonCache:updateButtons:142]: 
+[17:02:57] [Render thread/INFO]: [de.keksuccino.fancymenu.menu.button.ButtonCache:updateButtons:134]: 
+[17:02:57] [Render thread/INFO]: [de.keksuccino.fancymenu.menu.button.ButtonCache:updateButtons:135]: ## WARNING [FANCYMENU]: Overlapping buttons found! ##
+[17:02:57] [Render thread/INFO]: [de.keksuccino.fancymenu.menu.button.ButtonCache:updateButtons:136]: At: X=101 Y=151!
+[17:02:57] [Render thread/INFO]: [de.keksuccino.fancymenu.menu.button.ButtonCache:updateButtons:137]: Labels: Bonus Chest: OFF, Allow Cheats: OFF
+[17:02:57] [Render thread/INFO]: [de.keksuccino.fancymenu.menu.button.ButtonCache:updateButtons:138]: 
+[17:02:57] [Render thread/INFO]: [de.keksuccino.fancymenu.menu.button.ButtonCache:updateButtons:139]: If one or both of these buttons are added by a mod, please contact the developer(s) to fix this!
+[17:02:57] [Render thread/INFO]: [de.keksuccino.fancymenu.menu.button.ButtonCache:updateButtons:140]: FancyMenu cannot customize overlapping buttons!
+[17:02:57] [Render thread/INFO]: [de.keksuccino.fancymenu.menu.button.ButtonCache:updateButtons:141]: #####################################################
+[17:02:57] [Render thread/INFO]: [de.keksuccino.fancymenu.menu.button.ButtonCache:updateButtons:142]: 
+[17:02:57] [Render thread/INFO]: [de.keksuccino.fancymenu.menu.button.ButtonCache:updateButtons:134]: 
+[17:02:57] [Render thread/INFO]: [de.keksuccino.fancymenu.menu.button.ButtonCache:updateButtons:135]: ## WARNING [FANCYMENU]: Overlapping buttons found! ##
+[17:02:57] [Render thread/INFO]: [de.keksuccino.fancymenu.menu.button.ButtonCache:updateButtons:136]: At: X=101 Y=185!
+[17:02:57] [Render thread/INFO]: [de.keksuccino.fancymenu.menu.button.ButtonCache:updateButtons:137]: Labels: Import Settings, Game Rules
+[17:02:57] [Render thread/INFO]: [de.keksuccino.fancymenu.menu.button.ButtonCache:updateButtons:138]: 
+[17:02:57] [Render thread/INFO]: [de.keksuccino.fancymenu.menu.button.ButtonCache:updateButtons:139]: If one or both of these buttons are added by a mod, please contact the developer(s) to fix this!
+[17:02:57] [Render thread/INFO]: [de.keksuccino.fancymenu.menu.button.ButtonCache:updateButtons:140]: FancyMenu cannot customize overlapping buttons!
+[17:02:57] [Render thread/INFO]: [de.keksuccino.fancymenu.menu.button.ButtonCache:updateButtons:141]: #####################################################
+[17:02:57] [Render thread/INFO]: [de.keksuccino.fancymenu.menu.button.ButtonCache:updateButtons:142]: 

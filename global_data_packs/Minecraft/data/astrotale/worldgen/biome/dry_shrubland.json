@@ -1,5 +1,5 @@
 {
-  "effects": {
+  "effects": { 
     "sky_color": 1908775,
     "fog_color": 8659725,
     "water_color": 7428149,
@@ -103,12 +103,12 @@
     "water_creature": []
   },
   "category": "plains",
-  "precipitation": "none",
+  "precipitation": "rain",
   "surface_builder": "astrotale:dry_shrubland",
   "scale": 0.05,
   "downfall": 0.4,
   "depth": 0.08,
-  "temperature": 1,
+  "temperature": 0.6,
   "player_spawn_friendly": true,
   "spawn_costs": {}
 }

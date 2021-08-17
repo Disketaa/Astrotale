@@ -43,7 +43,7 @@ S:splashorientation = 'original';
 
 ##[loading]
 
-B:allowgameintroskip = 'true';
+B:allowgameintroskip = 'false';
 S:loadinganimationcolor = '#ffffffff';
 B:showanimationloadingstatus = 'true';
 S:gameintroanimation = '';
@@ -61,7 +61,7 @@ B:customwindowicon = 'false';
 
 ##[world_loading_screen]
 
-B:showloadingscreenanimation = 'true';
+B:showloadingscreenanimation = 'false';
 B:showloadingscreenpercent = 'true';
 
 

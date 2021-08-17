@@ -3,9 +3,6 @@ type = customizablemenus
 net.minecraft.client.gui.screen.MainMenuScreen {
 }
 
-net.minecraft.client.gui.screen.WorldLoadProgressScreen {
-}
-
 chylex.respack.gui.CustomResourcePackScreen {
 }
 
@@ -31,5 +28,8 @@ net.minecraft.client.gui.screen.VideoSettingsScreen {
 }
 
 net.minecraft.client.gui.screen.IngameMenuScreen {
+}
+
+net.minecraft.client.gui.screen.WorldLoadProgressScreen {
 }
 

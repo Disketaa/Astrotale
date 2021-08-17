@@ -1,0 +1,21 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.WorldLoadProgressScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/fancymenu/animations/loading/loading.gif
+  orientation = mid-centered
+  x = -4
+  width = 8
+  action = addtexture
+  actionid = 6739476e-842b-4e36-9358-fac361c284231629208562628
+  y = -4
+  height = 8
+}
+
