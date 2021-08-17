@@ -7,3 +7,11 @@ saves/*
 schematics/*
 screenshots/*
 shaderpacks/*
+changelog.txt
+ds_private_storage.json
+minecraftinstance.json
+options.txt
+servers.dat
+servers.dat_old
+usercache.json
+usernamecache.json
