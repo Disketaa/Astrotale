@@ -1,0 +1,23 @@
+type = hud
+
+customization-meta {
+  renderorder = foreground
+  backgroundcolor = 000000
+}
+
+customization {
+  action = editlogo
+  y = 1
+}
+
+customization {
+  textcolor = 3f3f3f
+  action = editforgememoryinfo
+}
+
+customization {
+  textcolor = 3f3f3f
+  action = editforgestatustext
+  y = -10
+}
+

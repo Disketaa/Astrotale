@@ -1,0 +1,14 @@
+{
+  "config": {
+    "top_material": {
+      "Name": "betterendforge:endstone_dust"
+    },
+    "under_material": {
+      "Name": "minecraft:end_stone"
+    },
+    "underwater_material": {
+      "Name": "betterendforge:endstone_dust"
+    }
+  },
+  "type": "minecraft:default"
+}

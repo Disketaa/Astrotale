@@ -1,0 +1,135 @@
+{
+  "effects": {
+    "sky_color": 1908775,
+    "fog_color": 15831781,
+    "water_color": 8007034,
+    "water_fog_color": 8007034,
+    "foliage_color": 8007034,
+    "grass_color": 8007034
+  },
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:canyon"
+    ]
+  },
+  "starts": [
+    "minecraft:mineshaft"
+  ],
+  "features": [
+    [],
+    [
+	  "betterendforge:end_lake_rare"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_granite",
+      "minecraft:ore_diorite",
+      "minecraft:ore_andesite",
+      "minecraft:ore_coal",
+      "minecraft:ore_iron",
+      "minecraft:ore_gold",
+      "minecraft:ore_redstone",
+      "minecraft:ore_diamond",
+      "minecraft:ore_lapis",
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel",
+	  "astrotale:blob_stone"	  
+    ],
+    [
+	  "betterendforge:spire",
+	  "betterendforge:floating_spire"
+	],
+    [
+      "betterendforge:tenanea",
+	  "betterendforge:tenanea_bush",
+	  "betterendforge:bulb_vine",
+	  "betterendforge:bushy_grass",
+	  "betterendforge:bushy_grass_wg",
+	  "betterendforge:twisted_moss",
+	  "betterendforge:twisted_moss_wood",
+	  "betterendforge:blossom_berry",
+	  "betterendforge:silk_moth_nest"
+    ],
+    []
+  ],
+  "spawners": {
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 10,
+        "minCount": 8,
+        "maxCount": 8
+      },
+      {
+        "type": "endergetic:bolloom_fruit",
+        "weight": 65,
+        "minCount": 2,
+        "maxCount": 5
+      },	  
+      {
+        "type": "betterendforge:silk_moth",
+        "weight": 20,
+        "minCount": 2,
+        "maxCount": 4
+      }	  
+    ],
+    "creature": [],
+    "misc": [],
+    "monster": [
+      {
+        "type": "minecraft:spider",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie",
+        "weight": 95,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie_villager",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:skeleton",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:creeper",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:enderman",
+        "weight": 100,
+        "minCount": 1,
+        "maxCount": 5
+      } 
+    ],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "category": "forest",
+  "precipitation": "rain",
+  "surface_builder": "astrotale:blossoming_spires",
+  "scale": 0.2,
+  "downfall": 0.4,
+  "depth": 0.10,
+  "temperature": 0.5,
+  "player_spawn_friendly": true,
+  "spawn_costs": {}
+}

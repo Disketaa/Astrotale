@@ -1,0 +1,170 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/fancymenu/customguis/menuscreens/background.png
+  action = texturizebackground
+}
+
+customization {
+  identifier = %id=604382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = bottom-left
+  x = 24
+  action = movebutton
+  y = -20
+}
+
+customization {
+  identifier = %id=400346%
+  width = 16
+  action = resizebutton
+  height = 16
+}
+
+customization {
+  identifier = %id=400346%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400346%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/icon_mods_hovered.png
+  backgroundnormal = config/fancymenu/customguis/icon_mods.png
+}
+
+customization {
+  identifier = %id=400346%
+  action = setbuttondescription
+  description = Mods
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = mid-centered
+  x = -55
+  action = movebutton
+  y = -10
+}
+
+customization {
+  identifier = %id=400322%
+  width = 110
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = mid-centered
+  x = -55
+  action = movebutton
+  y = -34
+}
+
+customization {
+  identifier = %id=400298%
+  width = 110
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = bottom-left
+  x = 4
+  action = movebutton
+  y = -20
+}
+
+customization {
+  identifier = %id=400382%
+  width = 16
+  action = resizebutton
+  height = 16
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/icon_setting_hovered.png
+  backgroundnormal = config/fancymenu/customguis/icon_setting.png
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttondescription
+  description = Options
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = mid-centered
+  x = -55
+  action = movebutton
+  y = 14
+}
+
+customization {
+  identifier = %id=502382%
+  width = 110
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  path = config/fancymenu/customguis/menuscreens/logo.png
+  orientation = top-centered
+  x = -98
+  width = 196
+  action = addtexture
+  actionid = 3258e518-b3b7-4744-aae5-be1899e6c7b31628870643900
+  y = 26
+  height = 36
+}
+
+customization {
+  path = config/fancymenu/customguis/menuscreens/planet.png
+  orientation = bottom-centered
+  x = -267
+  width = 534
+  action = addtexture
+  actionid = 4347363a-9c27-4469-a67f-ee9a5b8492d81628947986013
+  y = -111
+  height = 150
+}
+
+customization {
+  identifier = %id=376322%
+  action = hidebutton
+}
+

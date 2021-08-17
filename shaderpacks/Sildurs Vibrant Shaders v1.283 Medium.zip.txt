@@ -1,0 +1,12 @@
+#Thu Apr 08 18:47:05 MSK 2021
+animationSpeed=0.5
+Bloom=false
+bloom_strength=0.5
+Brightness=1.4
+cloud_height=192.0
+Contrast=1.9
+light_brightness=0.8
+MB_strength=0.008
+minlight=0.004
+morningFog=true
+TAA_quality=1

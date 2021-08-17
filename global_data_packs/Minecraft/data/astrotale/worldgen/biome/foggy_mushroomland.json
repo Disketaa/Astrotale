@@ -1,0 +1,147 @@
+{
+  "effects": {
+    "sky_color": 1908775,
+    "fog_color": 2718381,
+    "water_color": 7857146,
+    "water_fog_color": 7857146,
+    "foliage_color": 4838097,
+    "grass_color": 4838097,
+    "particle": {
+      "options": {
+        "type": "betterendforge:glowing_sphere"
+      },
+      "probability": 0.001
+    }
+  },
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:canyon"
+    ]
+  },
+  "starts": [
+    "minecraft:mineshaft",
+	"betterendforge:giant_mossy_glowshroom"
+  ],
+  "features": [
+    [],
+    [
+      "betterendforge:end_lake"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_granite",
+      "minecraft:ore_diorite",
+      "minecraft:ore_andesite",
+      "minecraft:ore_coal",
+      "minecraft:ore_iron",
+      "minecraft:ore_gold",
+      "minecraft:ore_redstone",
+      "minecraft:ore_diamond",
+      "minecraft:ore_lapis",
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel",
+	  "astrotale:blob_stone"	  
+    ],
+    [],
+    [
+      "betterendforge:mossy_glowshroom",
+	  "betterendforge:blue_vine",
+	  "betterendforge:umbrella_moss",
+	  "betterendforge:creeping_moss",
+	  "betterendforge:dense_vine",
+	  "betterendforge:cyan_moss",
+	  "betterendforge:cyan_moss_wood",
+	  "betterendforge:end_lily",
+	  "betterendforge:bubble_coral",
+	  "betterendforge:charnia_cyan",
+	  "betterendforge:charnia_light_blue"  
+    ],
+    []
+  ],
+  "spawners": {
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 10,
+        "minCount": 8,
+        "maxCount": 8
+      },
+      {
+        "type": "betterendforge:dragonfly",
+        "weight": 80,
+        "minCount": 2,
+        "maxCount": 5
+      },
+      {
+        "type": "betterendforge:end_fish",
+        "weight": 20,
+        "minCount": 2,
+        "maxCount": 5
+      },  
+      {
+        "type": "betterendforge:cubozoa",
+        "weight": 10,
+        "minCount": 3,
+        "maxCount": 8
+      }	  
+    ],
+    "creature": [],
+    "misc": [],
+    "monster": [
+      {
+        "type": "minecraft:spider",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie",
+        "weight": 95,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie_villager",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:skeleton",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:creeper",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:enderman",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 4
+      } 
+    ],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "category": "forest",
+  "precipitation": "rain",
+  "surface_builder": "betterendforge:mushroomland_surface",
+  "scale": 0.2,
+  "downfall": 0.4,
+  "depth": 0.12,
+  "temperature": 0.5,
+  "player_spawn_friendly": true,
+  "spawn_costs": {}
+}

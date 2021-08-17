@@ -1,0 +1,35 @@
+type = customizablemenus
+
+net.minecraft.client.gui.screen.MainMenuScreen {
+}
+
+net.minecraft.client.gui.screen.WorldLoadProgressScreen {
+}
+
+chylex.respack.gui.CustomResourcePackScreen {
+}
+
+net.minecraft.client.gui.screen.WorldSelectionScreen {
+}
+
+net.minecraft.client.gui.screen.MultiplayerScreen {
+}
+
+net.minecraftforge.fml.client.gui.screen.ModListScreen {
+}
+
+net.minecraft.client.gui.screen.OptionsScreen {
+}
+
+net.minecraft.client.gui.screen.CreateWorldScreen {
+}
+
+net.minecraft.client.gui.screen.OptionsSoundsScreen {
+}
+
+net.minecraft.client.gui.screen.VideoSettingsScreen {
+}
+
+net.minecraft.client.gui.screen.IngameMenuScreen {
+}
+

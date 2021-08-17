@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:oak_planks",
+    "minecraft:granite",
+    "minecraft:diorite",
+    "minecraft:andesite"
+  ]
+}
