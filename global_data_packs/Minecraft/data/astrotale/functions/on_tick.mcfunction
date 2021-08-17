@@ -1,0 +1,1 @@
+function astrotale:atlas_giving

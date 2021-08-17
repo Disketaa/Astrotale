@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-    "astrotale:on_tick"
+    "astrotale:on_load"
   ]
 }

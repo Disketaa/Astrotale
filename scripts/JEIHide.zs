@@ -5,6 +5,10 @@ mods.jei.JEI.hideItem(<item:minecraft:stone_stairs>);
 mods.jei.JEI.hideItem(<item:minecraft:bedrock>);
 mods.jei.JEI.hideItem(<item:minecraft:cobweb>);
 mods.jei.JEI.hideItem(<item:minecraft:grass>);
+mods.jei.JEI.hideItem(<item:minecraft:podzol>);
+mods.jei.JEI.hideItem(<item:minecraft:mycelium>);
+mods.jei.JEI.hideItem(<item:minecraft:snow>);
+mods.jei.JEI.hideItem(<item:minecraft:ice>);
 mods.jei.JEI.hideItem(<item:minecraft:fern>);
 mods.jei.JEI.hideItem(<item:minecraft:seagrass>);
 mods.jei.JEI.hideItem(<item:minecraft:crimson_roots>);
@@ -30,9 +34,14 @@ mods.jei.JEI.hideItem(<item:minecraft:creeper_head>);
 mods.jei.JEI.hideItem(<item:minecraft:dragon_head>);
 mods.jei.JEI.hideFluid(<fluid:minecraft:lava>);
 mods.jei.JEI.hideFluid(<fluid:minecraft:water>);
+mods.jei.JEI.hideRegex(".*purpur.*");
 mods.jei.JEI.hideRegex(".*infested.*");
 mods.jei.JEI.hideRegex(".*dead.*coral.*");
 mods.jei.JEI.hideRegex(".*spawn_egg.*");
+
+// Create
+mods.jei.JEI.hideItem(<item:create:handheld_worldshaper>);
+mods.jei.JEI.hideRegex(".*creative.*");
 
 // TheOneProbe
 mods.jei.JEI.hideMod("theoneprobe", (name as string) => {return name == "stone";});
