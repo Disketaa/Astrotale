@@ -30,8 +30,8 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2021-08-16T06:26:25.5186912Z",
-  "playedCount": 16,
+  "lastPlayed": "2021-08-17T07:47:38.3932881Z",
+  "playedCount": 17,
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -1265,7 +1265,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 404465,
@@ -1377,96 +1377,6 @@
       "installedTargets": null
     },
     {
-      "addonID": 486392,
-      "gameInstanceID": "aa4110b3-4d0b-4955-af59-6480bb99e3f7",
-      "installedFile": {
-        "id": 3419392,
-        "displayName": "flywheel-1.16-0.2.3.jar",
-        "fileName": "flywheel-1.16-0.2.3.jar",
-        "fileDate": "2021-08-08T18:32:59.313Z",
-        "fileLength": 466311,
-        "releaseType": 2,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3419/392/flywheel-1.16-0.2.3.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 4189169820,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "com",
-            "fingerprint": 1898681800,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 186929884,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "flywheel.mixins.json",
-            "fingerprint": 1212185055,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "logo.png",
-            "fingerprint": 102418554,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 2941651391,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "flywheel.refmap.json",
-            "fingerprint": 4009066725,
-            "type": 0,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 3063944626,
-        "gameVersion": [
-          "1.16.5",
-          "Forge"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "flywheel-1.16-0.2.3.jar"
-      },
-      "dateInstalled": "2021-08-16T09:42:04.5405667Z",
-      "dateUpdated": "2021-08-16T09:42:04.5425616Z",
-      "dateLastUpdateAttempted": "2021-08-16T09:42:04.5425616Z",
-      "status": 4,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": []
-    },
-    {
       "addonID": 407206,
       "gameInstanceID": "aa4110b3-4d0b-4955-af59-6480bb99e3f7",
       "installedFile": {
@@ -1566,6 +1476,96 @@
       "dateUpdated": "2021-08-12T22:08:55.6186689Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 486392,
+      "gameInstanceID": "aa4110b3-4d0b-4955-af59-6480bb99e3f7",
+      "installedFile": {
+        "id": 3419392,
+        "displayName": "flywheel-1.16-0.2.3.jar",
+        "fileName": "flywheel-1.16-0.2.3.jar",
+        "fileDate": "2021-08-08T18:32:59.313Z",
+        "fileLength": 466311,
+        "releaseType": 2,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3419/392/flywheel-1.16-0.2.3.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 4189169820,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 1898681800,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 186929884,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "flywheel.mixins.json",
+            "fingerprint": 1212185055,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "logo.png",
+            "fingerprint": 102418554,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 2941651391,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "flywheel.refmap.json",
+            "fingerprint": 4009066725,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 3063944626,
+        "gameVersion": [
+          "1.16.5",
+          "Forge"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "flywheel-1.16-0.2.3.jar"
+      },
+      "dateInstalled": "2021-08-16T09:42:04.5405667Z",
+      "dateUpdated": "2021-08-16T09:42:04.5425616Z",
+      "dateLastUpdateAttempted": "2021-08-16T09:42:04.5425616Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2592,7 +2592,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 268324,
@@ -3074,7 +3074,7 @@
       "dateInstalled": "2021-08-16T06:44:38.2818897Z",
       "dateUpdated": "2021-08-16T06:44:38.2838843Z",
       "dateLastUpdateAttempted": "2021-08-16T06:44:38.2838843Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -3083,7 +3083,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 288885,
@@ -3754,7 +3754,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 291509,
@@ -4088,83 +4088,6 @@
       "installedTargets": null
     },
     {
-      "addonID": 257814,
-      "gameInstanceID": "aa4110b3-4d0b-4955-af59-6480bb99e3f7",
-      "installedFile": {
-        "id": 3419983,
-        "displayName": "CreativeCore_v2.2.1_mc1.16.5.jar",
-        "fileName": "CreativeCore_v2.2.1_mc1.16.5.jar",
-        "fileDate": "2021-08-09T09:13:38.53Z",
-        "fileLength": 631207,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3419/983/CreativeCore_v2.2.1_mc1.16.5.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "creativecore.png",
-            "fingerprint": 1124175186,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 4194635062,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 1799390839,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "META-INF",
-            "fingerprint": 708800546,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "team",
-            "fingerprint": 3427769675,
-            "type": 0,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 854647538,
-        "gameVersion": [
-          "1.16.5"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2021-01-15T14:14:48.91Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "CreativeCore_v2.2.1_mc1.16.5.jar"
-      },
-      "dateInstalled": "2021-08-15T00:35:44.0347246Z",
-      "dateUpdated": "2021-08-15T00:35:44.0357198Z",
-      "dateLastUpdateAttempted": "2021-08-15T00:35:44.0357198Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
       "addonID": 410295,
       "gameInstanceID": "aa4110b3-4d0b-4955-af59-6480bb99e3f7",
       "installedFile": {
@@ -4276,6 +4199,83 @@
       "installedTargets": null
     },
     {
+      "addonID": 257814,
+      "gameInstanceID": "aa4110b3-4d0b-4955-af59-6480bb99e3f7",
+      "installedFile": {
+        "id": 3419983,
+        "displayName": "CreativeCore_v2.2.1_mc1.16.5.jar",
+        "fileName": "CreativeCore_v2.2.1_mc1.16.5.jar",
+        "fileDate": "2021-08-09T09:13:38.53Z",
+        "fileLength": 631207,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3419/983/CreativeCore_v2.2.1_mc1.16.5.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "creativecore.png",
+            "fingerprint": 1124175186,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 4194635062,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1799390839,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "META-INF",
+            "fingerprint": 708800546,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "team",
+            "fingerprint": 3427769675,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 854647538,
+        "gameVersion": [
+          "1.16.5"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2021-01-15T14:14:48.91Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "CreativeCore_v2.2.1_mc1.16.5.jar"
+      },
+      "dateInstalled": "2021-08-15T00:35:44.0347246Z",
+      "dateUpdated": "2021-08-15T00:35:44.0357198Z",
+      "dateLastUpdateAttempted": "2021-08-15T00:35:44.0357198Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
       "addonID": 245211,
       "gameInstanceID": "aa4110b3-4d0b-4955-af59-6480bb99e3f7",
       "installedFile": {
@@ -4361,6 +4361,102 @@
       "dateInstalled": "2021-08-12T12:52:50.3663519Z",
       "dateUpdated": "2021-08-12T12:52:50.3683471Z",
       "dateLastUpdateAttempted": "2021-08-12T12:52:50.3683471Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 382216,
+      "gameInstanceID": "aa4110b3-4d0b-4955-af59-6480bb99e3f7",
+      "installedFile": {
+        "id": 3351059,
+        "displayName": "Abnormals Core 1.16.5 - 3.2.0",
+        "fileName": "abnormals_core-1.16.5-3.2.0.jar",
+        "fileDate": "2021-06-14T00:21:51.67Z",
+        "fileLength": 947047,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3351/59/abnormals_core-1.16.5-3.2.0.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2107265233,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 3048055629,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "abnormals_core.mixins.json",
+            "fingerprint": 420976643,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "abnormals_core.png",
+            "fingerprint": 2401233286,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2630695660,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 1510015062,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 2015704770,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "abnormals_core.refmap.json",
+            "fingerprint": 3905505445,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 2151765102,
+        "gameVersion": [
+          "1.16.5",
+          "Forge"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "abnormals_core-1.16.5-3.2.0.jar"
+      },
+      "dateInstalled": "2021-08-13T08:28:57.7191898Z",
+      "dateUpdated": "2021-08-13T08:28:57.7201884Z",
+      "dateLastUpdateAttempted": "2021-08-13T08:28:57.7201884Z",
       "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -4476,102 +4572,6 @@
       "dateInstalled": "2021-08-12T22:05:58.260313Z",
       "dateUpdated": "2021-08-12T22:05:58.260313Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 382216,
-      "gameInstanceID": "aa4110b3-4d0b-4955-af59-6480bb99e3f7",
-      "installedFile": {
-        "id": 3351059,
-        "displayName": "Abnormals Core 1.16.5 - 3.2.0",
-        "fileName": "abnormals_core-1.16.5-3.2.0.jar",
-        "fileDate": "2021-06-14T00:21:51.67Z",
-        "fileLength": 947047,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3351/59/abnormals_core-1.16.5-3.2.0.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 2107265233,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "com",
-            "fingerprint": 3048055629,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "abnormals_core.mixins.json",
-            "fingerprint": 420976643,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "abnormals_core.png",
-            "fingerprint": 2401233286,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 2630695660,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "data",
-            "fingerprint": 1510015062,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 2015704770,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "abnormals_core.refmap.json",
-            "fingerprint": 3905505445,
-            "type": 0,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 2151765102,
-        "gameVersion": [
-          "1.16.5",
-          "Forge"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "abnormals_core-1.16.5-3.2.0.jar"
-      },
-      "dateInstalled": "2021-08-13T08:28:57.7191898Z",
-      "dateUpdated": "2021-08-13T08:28:57.7201884Z",
-      "dateLastUpdateAttempted": "2021-08-13T08:28:57.7201884Z",
       "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -5128,7 +5128,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     }
   ],
   "isMigrated": false,
