@@ -173,7 +173,7 @@
   "surface_builder": "astrotale:glowing_grasslands",
   "scale": 0.05,
   "downfall": 0,
-  "depth": 0.12,
+  "depth": 0.125,
   "temperature": 0.5,
   "player_spawn_friendly": true,
   "spawn_costs": {}

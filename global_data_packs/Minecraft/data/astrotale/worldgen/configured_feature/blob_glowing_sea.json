@@ -3,7 +3,7 @@
   "config": {
     "feature": {
       "type": "minecraft:decorated",
-      "name": "astrotale:patch_sand",
+      "name": "astrotale:blob_glowing_sea",
       "config": {
         "feature": {
           "type": "minecraft:decorated",
@@ -11,13 +11,13 @@
             "feature": {
               "config": {
                 "target": {
-                  "Name": "betterendforge:endstone_dust"                 
+                  "Name": "minecraft:sand"               
                 },
                 "state": {
-                  "Name": "minecraft:sand"                 
+                  "Name": "minecraft:sea_lantern"              
                 },
                 "radius": {
-                  "base": 32,
+                  "base": 0,
                   "spread": 0
                 },
                 "half_height": 0
@@ -28,7 +28,7 @@
               "config": {
                 "bottom_offset": 0,
                 "top_offset": 0,
-                "maximum": 96
+                "maximum": 128
               },
               "type": "minecraft:range"
             }
@@ -42,7 +42,7 @@
     },
     "decorator": {
       "config": {
-        "count": 128
+        "count": 32
       },
       "type": "minecraft:count"
     }

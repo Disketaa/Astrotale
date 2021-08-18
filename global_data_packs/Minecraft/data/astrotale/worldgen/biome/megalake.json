@@ -14,14 +14,13 @@
       "minecraft:canyon"
     ]
   },
-  "starts": [
-      "minecraft:mineshaft",
-	  "betterendforge:megalake_structure"
-  ],
+  "starts": [],
   "features": [
     [],
     [
-	  "minecraft:lake_water"
+	  "minecraft:lake_water",
+    "betterendforge:end_lake",
+    "betterendforge:end_lake_rare"
 	],
     [],
     [],
@@ -39,26 +38,27 @@
       "minecraft:ore_redstone",
       "minecraft:ore_diamond",
       "minecraft:ore_lapis",
-      "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel",
-	  "astrotale:blob_stone"	  
+	    "astrotale:blob_stone" 
     ],
     [],
     [
-	  "minecraft:seagrass_normal",
+      "astrotale:patch_sand",
+      "astrotale:blob_glowing_sea",
+	    "minecraft:seagrass_normal",
       "minecraft:seagrass_simple",
       "minecraft:kelp_cold",
       "betterendforge:bubble_coral_rare",
-	  "betterendforge:end_lotus",
-	  "betterendforge:end_lotus_leaf",
-	  "betterendforge:end_lily_rare",
-	  "betterendforge:umbrella_moss",
-	  "betterendforge:creeping_moss",
-	  "betterendforge:menger_sponge",
-	  "betterendforge:charnia_cyan",
-	  "betterendforge:charnia_light_blue",
-	  "betterendforge:charnia_red_rare"
+  	  "betterendforge:end_lotus",
+  	  "betterendforge:end_lotus_leaf",
+  	  "betterendforge:end_lily_rare",
+  	  "betterendforge:umbrella_moss",
+  	  "betterendforge:creeping_moss",
+  	  "betterendforge:menger_sponge",
+  	  "betterendforge:charnia_cyan",
+  	  "betterendforge:charnia_light_blue",
+  	  "betterendforge:charnia_red_rare"
     ],
     []
   ],
@@ -69,50 +69,38 @@
         "weight": 10,
         "minCount": 8,
         "maxCount": 8
-      },
-      {
-        "type": "betterendforge:end_fish",
-        "weight": 20,
-        "minCount": 2,
-        "maxCount": 5
-      },  
-      {
-        "type": "betterendforge:cubozoa",
-        "weight": 10,
-        "minCount": 3,
-        "maxCount": 8
-      }	  
+      }  
     ],
     "creature": [],
     "misc": [],
     "monster": [
       {
-        "type": "minecraft:spider",
+        "type": "minecraft:drowned",
         "weight": 100,
-        "minCount": 4,
+        "minCount": 1,
         "maxCount": 4
       },
       {
-        "type": "minecraft:drowned",
-        "weight": 95,
-        "minCount": 4,
-        "maxCount": 6
+        "type": "minecraft:spider",
+        "weight": 100,
+        "minCount": 1,
+        "maxCount": 4
       },
       {
         "type": "minecraft:skeleton",
         "weight": 100,
-        "minCount": 4,
+        "minCount": 1,
         "maxCount": 4
       },
       {
         "type": "minecraft:creeper",
         "weight": 100,
-        "minCount": 4,
+        "minCount": 1,
         "maxCount": 4
       },
       {
         "type": "minecraft:enderman",
-        "weight": 10,
+        "weight": 150,
         "minCount": 1,
         "maxCount": 4
       } 
@@ -121,19 +109,25 @@
 	[
       {
         "type": "betterendforge:end_fish",
-        "weight": 50,
-        "minCount": 3,
-        "maxCount": 8
-      } 	
+        "weight": 20,
+        "minCount": 2,
+        "maxCount": 6
+      },
+      {
+        "type": "betterendforge:cubozoa",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 4
+      } 
 	],
     "water_creature": []
   },
   "category": "ocean",
   "precipitation": "rain",
-  "surface_builder": "betterendforge:megalake_surface",
-  "scale": 0.25,
+  "surface_builder": "astrotale:megalake",
+  "scale": 0.015,
   "downfall": 0.4,
-  "depth": -0.1,
+  "depth": -0.5,
   "temperature": 0.5,
   "player_spawn_friendly": false,
   "spawn_costs": {}

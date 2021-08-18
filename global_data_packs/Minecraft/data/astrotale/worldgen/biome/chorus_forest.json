@@ -125,7 +125,7 @@
   "surface_builder": "astrotale:chorus_forest",
   "scale": 0.2,
   "downfall": 0.4,
-  "depth": 0.05,
+  "depth": 0.1,
   "temperature": 0.5,
   "player_spawn_friendly": false,
   "spawn_costs": {}

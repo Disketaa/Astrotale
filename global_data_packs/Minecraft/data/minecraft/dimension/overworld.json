@@ -11,8 +11,8 @@
             "parameters":{
               "altitude": 0,
               "humidity": 1,
-              "temperature": 0,
-              "weirdness": 0,
+              "temperature": 0.5,
+              "weirdness": 0.1,
               "offset": 0.2
             }
           },
@@ -21,8 +21,8 @@
             "parameters":{
               "altitude": 0.5,
               "humidity": 0.75,
-              "temperature": 0.75,
-              "weirdness": 0,
+              "temperature": 0.95,
+              "weirdness": 0.1,
               "offset": 0.2
             }
           },          
@@ -31,9 +31,9 @@
             "parameters":{
               "altitude": -1,
               "humidity": 0.25,
-              "temperature": 0.25,
-              "weirdness": 0.7,
-              "offset": 0
+              "temperature": 0.5,
+              "weirdness": 0.1,
+              "offset": 0.2
             }
           },
           {
@@ -41,9 +41,9 @@
             "parameters":{
               "altitude": 0,
               "humidity": 0.5,
-              "temperature": 0.4,
-              "weirdness": 0.9,
-              "offset": 0
+              "temperature": 0.7,
+              "weirdness": 0.1,
+              "offset": 0.2
             }
           },
           {
@@ -51,9 +51,9 @@
             "parameters":{
               "altitude": 0.5,
               "humidity": 0.5,
-              "temperature": -0.25,
-              "weirdness": 0.3,
-              "offset": 0
+              "temperature": 0.5,
+              "weirdness": 0.1,
+              "offset": 0.2
             }
           },
           {
@@ -61,9 +61,9 @@
             "parameters":{
               "altitude": 1,
               "humidity": 1,
-              "temperature": -0.5,
-              "weirdness": 0.5,
-              "offset": 0
+              "temperature": 0.9,
+              "weirdness": 0.1,
+              "offset": 0.2
             }
           },
           {
@@ -72,8 +72,8 @@
               "altitude": 0.25,
               "humidity": -0.5,
               "temperature": 0.75,
-              "weirdness": 0.5,
-              "offset": 0
+              "weirdness": 0.1,
+              "offset": 0.2
             }
           },
           {
@@ -82,8 +82,8 @@
               "altitude": -0.5,
               "humidity": -1,
               "temperature": 1,
-              "weirdness": 0.25,
-              "offset": 0
+              "weirdness": 0.1,
+              "offset": 0.2
             }
           },
           {
@@ -92,8 +92,8 @@
               "altitude": 0,
               "humidity": 1,
               "temperature": 0.25,
-              "weirdness": 0.5,
-              "offset": 0
+              "weirdness": 0.1,
+              "offset": 0.2
             }
           },
           {
@@ -101,9 +101,9 @@
             "parameters":{
               "altitude": -1,
               "humidity": 0,
-              "temperature": 0,
-              "weirdness": 0,
-              "offset": 0
+              "temperature": 0.8,
+              "weirdness": 0.1,
+              "offset": 0.2
             }
           },
           {
@@ -111,19 +111,9 @@
             "parameters":{
               "altitude": 0.5,
               "humidity": 0.5,
-              "temperature": 0.5,
-              "weirdness": 0.25,
-              "offset": 0
-            }
-          },
-          {
-            "biome": "astrotale:neon_oasis",
-            "parameters":{
-              "altitude": 0,
-              "humidity": 1,
-              "temperature": 0,
-              "weirdness": 0.5,
-              "offset": 0.5
+              "temperature": 0.6,
+              "weirdness": 0.1,
+              "offset": 0.2
             }
           },
           {
@@ -131,19 +121,9 @@
             "parameters":{
               "altitude": 0,
               "humidity": 1,
-              "temperature": 0,
-              "weirdness": 0.25,
-              "offset": 0.25
-            }
-          },
-          {
-            "biome": "astrotale:megalake_grove",
-            "parameters":{
-              "altitude": 0,
-              "humidity": 1,
-              "temperature": 0,
-              "weirdness": 0.1,
-              "offset": 0.25
+              "temperature": 0.1,
+              "weirdness": 0.5,
+              "offset": 0.2
             }
           },
           {
@@ -151,11 +131,11 @@
             "parameters":{
               "altitude": 0,
               "humidity": 0.5,
-              "temperature": -0.25,
-              "weirdness": 1,
-              "offset": 0
+              "temperature": 0.7,
+              "weirdness": 0.1,
+              "offset": 0.2
             }
-		  }	
+		     }	
       ],
       "altitude_noise": {
         "firstOctave": -7,

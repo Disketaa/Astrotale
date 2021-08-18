@@ -7,6 +7,7 @@ saves/*
 schematics/*
 screenshots/*
 shaderpacks/*
+renders/*
 changelog.txt
 ds_private_storage.json
 minecraftinstance.json
