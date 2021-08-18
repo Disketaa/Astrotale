@@ -1,13 +1,13 @@
 {
   "config": {
     "top_material": {
-      "Name": "minecraft:sand"
+      "Name": "betterendforge:end_mycelium"
     },
     "under_material": {
-      "Name": "minecraft:sandstone"
+      "Name": "betterendforge:violecite"
     },
     "underwater_material": {
-      "Name": "minecraft:sandstone"
+      "Name": "betterendforge:violecite"
     }
   },
   "type": "minecraft:default"

@@ -54,7 +54,7 @@ S:customgameintroskiptext = '';
 ##[minecraftwindow]
 
 [A minecraft restart is required after changing this value.]
-S:customwindowtitle = 'Astrotale' Dev7.1';
+S:customwindowtitle = 'Astrotale' Dev7.3';
 [A minecraft restart is required after changing this value.]
 B:customwindowicon = 'true';
 

@@ -5,8 +5,8 @@
     "fog_color": 6546679,
     "water_color": 6093542,
     "water_fog_color": 6093542,
-    "foliage_color": 4838097,
-    "grass_color": 65533,
+    "foliage_color": 4767935,
+    "grass_color": 4767935,
     "particle": {
       "options": {
         "type": "betterendforge:firefly"
@@ -22,9 +22,9 @@
   },
   "starts": [],
   "features": [
-    [],
+    [], 
     [
-      "betterendforge:end_lake_rare"
+      "minecraft:lake_water"
     ],
     [],
     [],
@@ -42,7 +42,6 @@
       "minecraft:ore_redstone",
       "minecraft:ore_diamond",
       "minecraft:ore_lapis",
-      "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel",
 	    "astrotale:blob_stone"	  

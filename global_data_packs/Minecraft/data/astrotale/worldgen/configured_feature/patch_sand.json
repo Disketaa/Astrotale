@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "feature": {
+      "type": "minecraft:decorated",
+      "name": "astrotale:patch_sandstone",
+      "config": {
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "feature": {
+              "config": {
+                "target": {
+                  "Name": "betterendforge:endstone_dust"                 
+                },
+                "state": {
+                  "Name": "minecraft:sand"                 
+                },
+                "radius": {
+                  "base": 32,
+                  "spread": 0
+                },
+                "half_height": 0
+              },
+              "type": "minecraft:netherrack_replace_blobs"
+            },
+            "decorator": {
+              "config": {
+                "bottom_offset": 0,
+                "top_offset": 0,
+                "maximum": 96
+              },
+              "type": "minecraft:range"
+            }
+          }
+        },
+        "decorator": {
+          "config": {},
+          "type": "minecraft:square"
+        }
+      }
+    },
+    "decorator": {
+      "config": {
+        "count": 128
+      },
+      "type": "minecraft:count"
+    }
+  }
+}

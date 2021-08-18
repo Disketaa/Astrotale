@@ -4,8 +4,8 @@
     "fog_color": 16758855,
     "water_color": 9530440,
     "water_fog_color": 9530440,
-    "foliage_color": 14381862,
-    "grass_color": 16742443,
+    "foliage_color": 11293217,
+    "grass_color": 11293217,
     "particle": {
       "options": {
         "type": "betterendforge:amber_sphere"
@@ -41,7 +41,6 @@
       "minecraft:ore_redstone",
       "minecraft:ore_diamond",
       "minecraft:ore_lapis",
-      "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel",
   	  "betterendforge:amber_ore",

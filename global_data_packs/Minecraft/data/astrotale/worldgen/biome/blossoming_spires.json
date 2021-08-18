@@ -5,8 +5,8 @@
     "fog_color": 15831781,
     "water_color": 8007034,
     "water_fog_color": 8007034,
-    "foliage_color": 8007034,
-    "grass_color": 16222947
+    "foliage_color": 10969755,
+    "grass_color": 10969755
   },
   "carvers": {
     "air": [
@@ -36,7 +36,6 @@
       "minecraft:ore_redstone",
       "minecraft:ore_diamond",
       "minecraft:ore_lapis",
-      "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel",
 	    "astrotale:blob_stone"	  

@@ -5,8 +5,8 @@
     "fog_color": 5708375,
     "water_color": 4791881,
     "water_fog_color": 4791881,
-    "foliage_color": 8007034,
-    "grass_color": 14241497,
+    "foliage_color": 9778837,
+    "grass_color": 9778837,
     "particle": {
       "options": {
         "type": "minecraft:portal"
@@ -44,7 +44,6 @@
       "minecraft:ore_redstone",
       "minecraft:ore_diamond",
       "minecraft:ore_lapis",
-      "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel",
   	  "betterendforge:violecite_layer",
