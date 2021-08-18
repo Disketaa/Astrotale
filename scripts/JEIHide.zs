@@ -9,6 +9,7 @@ mods.jei.JEI.hideItem(<item:minecraft:podzol>);
 mods.jei.JEI.hideItem(<item:minecraft:mycelium>);
 mods.jei.JEI.hideItem(<item:minecraft:snow>);
 mods.jei.JEI.hideItem(<item:minecraft:ice>);
+mods.jei.JEI.hideItem(<item:minecraft:end_stone>);
 mods.jei.JEI.hideItem(<item:minecraft:fern>);
 mods.jei.JEI.hideItem(<item:minecraft:seagrass>);
 mods.jei.JEI.hideItem(<item:minecraft:crimson_roots>);

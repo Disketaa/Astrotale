@@ -46,23 +46,23 @@
       "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel",
-	  "astrotale:blob_stone"	  
+	    "astrotale:blob_stone"	  
     ],
     [],
     [
       "betterendforge:flamaea",
-	  "betterendforge:lucernia",
-	  "betterendforge:lucernia_bush",
-	  "betterendforge:filalux",
-	  "betterendforge:aeridium",
-	  "betterendforge:lamellarium",
-	  "betterendforge:bolux_mushroom",
-	  "betterendforge:aurant_polypore",
-	  "betterendforge:pond_anemone",
-	  "betterendforge:charnia_orange",
-	  "betterendforge:charnia_red",
-	  "betterendforge:ruscus",
-	  "betterendforge:ruscus_wood"
+  	  "betterendforge:lucernia",
+  	  "betterendforge:lucernia_bush",
+  	  "betterendforge:filalux",
+  	  "betterendforge:aeridium",
+  	  "betterendforge:lamellarium",
+  	  "betterendforge:bolux_mushroom",
+  	  "betterendforge:aurant_polypore",
+  	  "betterendforge:pond_anemone",
+  	  "betterendforge:charnia_orange",
+  	  "betterendforge:charnia_red",
+  	  "betterendforge:ruscus",
+  	  "betterendforge:ruscus_wood"
     ],
     []
   ],

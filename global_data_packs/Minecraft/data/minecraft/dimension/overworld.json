@@ -7,7 +7,7 @@
 		"type": "minecraft:multi_noise",
 		"biomes":[
           {
-            "biome": "astrotale:blossoming_spires",
+            "biome": "astrotale:dry_shrubland",
             "parameters":{
               "altitude": 0,
               "humidity": 1,
@@ -17,7 +17,7 @@
             }
           },
           {
-            "biome": "astrotale:blossoming_spires",
+            "biome": "astrotale:dry_shrubland",
             "parameters":{
               "altitude": 0.5,
               "humidity": 0.75,

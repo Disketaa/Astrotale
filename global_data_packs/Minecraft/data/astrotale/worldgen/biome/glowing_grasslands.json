@@ -50,9 +50,8 @@
     [],
     [
       "astrotale:patch_grass",
-      "minecraft:patch_tall_grass",
-      "minecraft:patch_tall_grass_2",
-      "minecraft:patch_grass_plain",
+      "astrotale:grass",
+      "astrotale:fern",
       "betterendforge:lumecorn",
   	  "betterendforge:blooming_cooksonia",
   	  "betterendforge:salteago",
@@ -120,13 +119,13 @@
       {
         "type": "minecraft:spider",
         "weight": 100,
-        "minCount": 4,
+        "minCount": 1,
         "maxCount": 4
       },
       {
         "type": "minecraft:zombie",
         "weight": 95,
-        "minCount": 4,
+        "minCount": 1,
         "maxCount": 4
       },
       {
@@ -138,13 +137,13 @@
       {
         "type": "minecraft:skeleton",
         "weight": 100,
-        "minCount": 4,
+        "minCount": 1,
         "maxCount": 4
       },
       {
         "type": "minecraft:creeper",
         "weight": 100,
-        "minCount": 4,
+        "minCount": 1,
         "maxCount": 4
       },
       {

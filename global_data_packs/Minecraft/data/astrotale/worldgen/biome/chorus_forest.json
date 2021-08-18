@@ -6,7 +6,7 @@
     "water_color": 4791881,
     "water_fog_color": 4791881,
     "foliage_color": 8007034,
-    "grass_color": 8007034,
+    "grass_color": 14241497,
     "particle": {
       "options": {
         "type": "minecraft:portal"
@@ -47,20 +47,25 @@
       "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel",
-	  "betterendforge:violecite_layer",
-	  "astrotale:blob_stone"	  
+  	  "betterendforge:violecite_layer",
+  	  "astrotale:blob_stone"	  
     ],
     [],
     [
+      "astrotale:patch_grass",
+      "astrotale:grass",
+      "astrotale:grass_tall",
+      "astrotale:fern",
+      "astrotale:fern_large",
       "betterendforge:pythadendron",
-	  "betterendforge:pythadendron_bush",
-	  "minecraft:chorus_plant",
-	  "betterendforge:chorus_grass",
-	  "betterendforge:purple_polypore",
-	  "betterendforge:tail_moss",
-	  "betterendforge:tail_moss_wood",
-	  "betterendforge:charnia_purple",
-	  "betterendforge:charnia_red_rare"
+  	  "betterendforge:pythadendron_bush",
+  	  "minecraft:chorus_plant",
+  	  "betterendforge:chorus_grass",
+  	  "betterendforge:purple_polypore",
+  	  "betterendforge:tail_moss",
+  	  "betterendforge:tail_moss_wood",
+  	  "betterendforge:charnia_purple",
+  	  "betterendforge:charnia_red_rare"
     ],
     []
   ],
@@ -79,33 +84,39 @@
       {
         "type": "minecraft:spider",
         "weight": 100,
-        "minCount": 4,
+        "minCount": 1,
         "maxCount": 4
       },
       {
         "type": "minecraft:enderman",
-        "weight": 10,
+        "weight": 75,
         "minCount": 1,
         "maxCount": 4
       },
       {
         "type": "minecraft:endermite",
         "weight": 20,
-        "minCount": 2,
-        "maxCount": 5
+        "minCount": 1,
+        "maxCount": 2
       },	  
       {
         "type": "endergetic:booflo",
-        "weight": 65,
+        "weight": 15,
         "minCount": 1,
-        "maxCount": 3
+        "maxCount": 4
       },
       {
         "type": "endergetic:booflo_baby",
         "weight": 5,
         "minCount": 1,
         "maxCount": 2
-      } 		  
+      },
+      {
+        "type": "betterendforge:end_slime",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 4
+      }         
     ],
     "water_ambient": [],
     "water_creature": []

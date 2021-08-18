@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "feature": {
+      "type": "minecraft:decorated",
+      "name": "astrotale:blob_glowing",
+      "config": {
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "feature": {
+              "config": {
+                "target": {
+                  "Name": "minecraft:grass_block",
+                  "Properties": {
+                    "snowy": "false"
+                  }                  
+                },
+                "state": {
+                  "Name": "betterendforge:glowing_pillar_luminophor",
+                  "Properties": {
+                    "natural": "false"
+                  }                    
+                },
+                "radius": {
+                  "base": 0,
+                  "spread": 0
+                },
+                "half_height": 0
+              },
+              "type": "minecraft:netherrack_replace_blobs"
+            },
+            "decorator": {
+              "config": {
+                "bottom_offset": 0,
+                "top_offset": 0,
+                "maximum": 128
+              },
+              "type": "minecraft:range"
+            }
+          }
+        },
+        "decorator": {
+          "config": {},
+          "type": "minecraft:square"
+        }
+      }
+    },
+    "decorator": {
+      "config": {
+        "count": 32
+      },
+      "type": "minecraft:count"
+    }
+  }
+}
