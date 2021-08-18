@@ -4,7 +4,7 @@
       "Name": "betterendforge:endstone_dust"
     },
     "under_material": {
-      "Name": "minecraft:end_stone"
+      "Name": "minecraft:dirt"
     },
     "underwater_material": {
       "Name": "betterendforge:endstone_dust"

@@ -3,7 +3,7 @@
   "config": {
     "feature": {
       "type": "minecraft:decorated",
-      "name": "astrotale:patch_end_moss_grass",
+      "name": "astrotale:patch_grass",
       "config": {
         "feature": {
           "type": "minecraft:decorated",
@@ -11,30 +11,24 @@
             "feature": {
               "config": {
                 "target": {
-                  "Name": "betterendforge:end_moss"
+                  "tag": "minecraft:nylium",
+                  "predicate_type": "minecraft:tag_match"
                 },
                 "state": {
-                  "Properties": {
-                    "axis": "y"
-                  },
                   "Name": "minecraft:grass_block",
                   "Properties": {
                     "snowy": "false"
                   }
                 },
-                "radius": {
-                  "base": 0,
-                  "spread": 1
-                },
-                "half_height": 0
+                "size": 32
               },
-              "type": "minecraft:netherrack_replace_blobs"
+              "type": "minecraft:ore"
             },
             "decorator": {
               "config": {
                 "bottom_offset": 0,
                 "top_offset": 0,
-                "maximum": 128
+                "maximum": 96
               },
               "type": "minecraft:range"
             }

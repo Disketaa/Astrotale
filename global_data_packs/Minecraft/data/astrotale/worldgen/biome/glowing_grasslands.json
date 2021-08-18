@@ -20,9 +20,7 @@
       "minecraft:canyon"
     ]
   },
-  "starts": [
-    "minecraft:mineshaft"
-  ],
+  "starts": [],
   "features": [
     [],
     [
@@ -51,7 +49,7 @@
     ],
     [],
     [
-      "astrotale:patch_end_moss_grass",
+      "astrotale:patch_grass",
       "minecraft:patch_tall_grass",
       "minecraft:patch_tall_grass_2",
       "minecraft:patch_grass_plain",
@@ -89,32 +87,32 @@
       {
         "type": "minecraft:sheep",
         "weight": 20,
-        "minCount": 1,
+        "minCount": 2,
         "maxCount": 4
       },
       {
         "type": "minecraft:pig",
         "weight": 20,
-        "minCount": 1,
+        "minCount": 2,
         "maxCount": 4
       },
       {
         "type": "minecraft:chicken",
         "weight": 20,
-        "minCount": 1,
+        "minCount": 2,
         "maxCount": 4
       },
       {
         "type": "minecraft:cow",
         "weight": 16,
-        "minCount": 1,
+        "minCount": 2,
         "maxCount": 4
       },
       {
         "type": "minecraft:horse",
-        "weight": 10,
+        "weight": 5,
         "minCount": 1,
-        "maxCount": 3
+        "maxCount": 2
       }
     ],
     "misc": [],
@@ -151,7 +149,7 @@
       },
       {
         "type": "minecraft:enderman",
-        "weight": 10,
+        "weight": 150,
         "minCount": 1,
         "maxCount": 4
       } 
