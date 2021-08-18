@@ -1,7 +1,0 @@
-~Dev1:
-- Composting Recipes
-
-
-~Dev2:
-- BetterEnd
-- Biomeplacing

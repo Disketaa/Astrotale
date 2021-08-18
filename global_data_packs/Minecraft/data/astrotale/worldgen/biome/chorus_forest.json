@@ -117,7 +117,20 @@
         "maxCount": 4
       }         
     ],
-    "water_ambient": [],
+    "water_ambient": [
+      {
+        "type": "minecraft:salmon",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "betterendforge:end_fish",
+        "weight": 2,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
     "water_creature": []
   },
   "category": "forest",
