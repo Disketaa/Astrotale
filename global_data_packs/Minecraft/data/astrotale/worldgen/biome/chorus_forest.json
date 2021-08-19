@@ -20,9 +20,7 @@
       "minecraft:canyon"
     ]
   },
-  "starts": [
-    "minecraft:mineshaft"
-  ],
+  "starts": [],
   "features": [
     [],
     [

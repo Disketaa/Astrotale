@@ -19,9 +19,7 @@
       "minecraft:canyon"
     ]
   },
-  "starts": [
-    "minecraft:mineshaft"
-  ],
+  "starts": [],
   "features": [
     [],
     [],
@@ -75,7 +73,7 @@
     "creature": [
       {
         "type": "minecraft:mooshroom",
-        "weight": 50,
+        "weight": 60,
         "minCount": 1,
         "maxCount": 4
       }    
