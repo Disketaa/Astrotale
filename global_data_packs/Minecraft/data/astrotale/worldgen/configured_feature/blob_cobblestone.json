@@ -3,7 +3,7 @@
   "config": {
     "feature": {
       "type": "minecraft:decorated",
-      "name": "astrotale:blob_stone",
+      "name": "astrotale:blob_cobblestone",
       "config": {
         "feature": {
           "type": "minecraft:decorated",
@@ -11,17 +11,17 @@
             "feature": {
               "config": {
                 "target": {
-                  "Name": "minecraft:stone"
+                  "Name": "minecraft:stone",
+                  "Properties": {
+                    "snowy": "false"
+                  }                  
                 },
                 "state": {
-                  "Properties": {
-                    "axis": "y"
-                  },
-                  "Name": "betterendforge:violecite"
+                  "Name": "minecraft:cobblestone"                 
                 },
                 "radius": {
-                  "base": 12,
-                  "spread": 4
+                  "base": 2,
+                  "spread": 2
                 },
                 "half_height": 0
               },
@@ -45,7 +45,7 @@
     },
     "decorator": {
       "config": {
-        "count": 75
+        "count": 128
       },
       "type": "minecraft:count"
     }

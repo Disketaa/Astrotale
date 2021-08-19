@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "feature": {
+      "type": "minecraft:decorated",
+      "name": "astrotale:ore_redstone",
+      "config": {
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "feature": {
+              "config": {
+                "target": {
+                  "tag": "minecraft:base_stone_overworld",
+                  "predicate_type": "minecraft:tag_match"
+                },
+                "state": {
+                  "Name": "minecraft:redstone_ore",
+                  "Properties": {
+                    "lit": "false"
+                  }                  
+                },
+                "size": 8
+              },
+              "type": "minecraft:ore"
+            },
+            "decorator": {
+              "type": "minecraft:square",
+              "config": {}
+            }
+          }
+        },
+        "decorator": {
+          "type": "minecraft:range",
+          "config": {
+            "bottom_offset": 0,
+            "top_offset": 0,
+            "maximum": 15
+          }
+        }
+      }
+    },
+    "decorator": {
+      "type": "minecraft:count",
+      "config": {
+        "count": 14
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "feature": {
+      "type": "minecraft:decorated",
+      "name": "astrotale:ore_gold",
+      "config": {
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "feature": {
+              "config": {
+                "target": {
+                  "tag": "minecraft:base_stone_overworld",
+                  "predicate_type": "minecraft:tag_match"
+                },
+                "state": {
+                  "Name": "minecraft:gold_ore"
+                },
+                "size": 12
+              },
+              "type": "minecraft:ore"
+            },
+            "decorator": {
+              "type": "minecraft:square",
+              "config": {}
+            }
+          }
+        },
+        "decorator": {
+          "type": "minecraft:range",
+          "config": {
+            "bottom_offset": 0,
+            "top_offset": 0,
+            "maximum": 31
+          }
+        }
+      }
+    },
+    "decorator": {
+      "type": "minecraft:count",
+      "config": {
+        "count": 4
+      }
+    }
+  }
+}
