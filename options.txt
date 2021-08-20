@@ -19,13 +19,13 @@ bobView:true
 toggleCrouch:false
 toggleSprint:false
 mouseSensitivity:0.5
-fov:0.0
+fov:1.0
 screenEffectScale:1.0
 fovEffectScale:1.0
-gamma:0.0
+gamma:1.0
 renderDistance:8
 entityDistanceScaling:1.0
-guiScale:1
+guiScale:2
 particles:0
 maxFps:260
 difficulty:2
@@ -52,7 +52,7 @@ chatHeightFocused:0.5035211443901062
 chatDelay: 0.0
 chatHeightUnfocused:0.5
 chatScale:1.0
-chatWidth:0.7535211443901062
+chatWidth:0.75352114
 mipmapLevels:4
 useNativeTransport:true
 mainHand:right
@@ -100,6 +100,7 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
+key_of.key.zoom:key.keyboard.unknown
 key_Reload Menu | CTRL + ALT + :key.keyboard.unknown
 key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.unknown
 key_key.toggleLiquids:key.keyboard.unknown
@@ -107,11 +108,11 @@ key_key.toggleVisible:key.keyboard.unknown
 key_key.invtweaks_sort_player.desc:key.keyboard.unknown
 key_key.invtweaks_sort_inventory.desc:key.keyboard.unknown
 key_key.invtweaks_sort_either.desc:key.mouse.middle
+key_create.keyinfo.toolmenu:key.keyboard.left.alt
 key_placebo.toggleWings:key.keyboard.unknown
 key_placebo.toggleTrails:key.keyboard.unknown
 key_key.endergetic.booflo_vest:key.keyboard.space
 key_key.endergetic.booflo_slam:key.keyboard.unknown
-key_create.keyinfo.toolmenu:key.keyboard.left.alt
 key_key.toastcontrol.clear:key.keyboard.unknown
 key_fpsreducer.key.openGui:key.keyboard.unknown
 key_fpsreducer.key.forceIdle:key.keyboard.unknown
