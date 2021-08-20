@@ -38,7 +38,7 @@
       "minecraft:ore_gravel",
       "minecraft:ore_granite",
       "minecraft:ore_diorite",
-      "minecraft:ore_andesite",      
+      "minecraft:ore_andesite",     
       "astrotale:ore_coal",
       "astrotale:ore_copper",
       "astrotale:ore_diamond",
@@ -46,6 +46,7 @@
       "astrotale:ore_iron",
       "astrotale:ore_lapis",
       "astrotale:ore_redstone",
+      "astrotale:ore_thalassium",
       "astrotale:ore_zinc",
       "minecraft:disk_clay",
       "minecraft:disk_gravel"	  

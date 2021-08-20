@@ -1,8 +1,0 @@
-{
-  "criteria":
-  {
-    "blocked": {
-      "trigger": "minecraft:impossible"
-    }
-  }
-}

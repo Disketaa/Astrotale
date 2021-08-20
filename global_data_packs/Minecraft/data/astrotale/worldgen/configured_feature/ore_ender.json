@@ -3,7 +3,7 @@
   "config": {
     "feature": {
       "type": "minecraft:decorated",
-      "name": "astrotale:ore_iron",
+      "name": "astrotale:ore_ender",
       "config": {
         "feature": {
           "type": "minecraft:decorated",
@@ -15,7 +15,7 @@
                   "predicate_type": "minecraft:tag_match"
                 },
                 "state": {
-                  "Name": "minecraft:iron_ore"
+                  "Name": "betterendforge:ender_ore"
                 },
                 "size": 9
               },
@@ -32,7 +32,7 @@
           "config": {
             "bottom_offset": 0,
             "top_offset": 0,
-            "maximum": 63
+            "maximum": 31
           }
         }
       }
@@ -40,7 +40,7 @@
     "decorator": {
       "type": "minecraft:count",
       "config": {
-        "count": 22
+        "count": 8
       }
     }
   }
