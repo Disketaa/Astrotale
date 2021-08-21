@@ -31,7 +31,7 @@ maxFps:260
 difficulty:2
 graphicsMode:1
 ao:2
-biomeBlendRadius:9
+biomeBlendRadius:4
 renderClouds:true
 resourcePacks:["vanilla","mod_resources","file/Astrotale Resources","file/Main/Xali\u0027s Enhanced Vanilla","file/Main/Mo\u0027s Vibrancy Pack","file/Main/Brunozamp\u0027s Foliage"]
 incompatibleResourcePacks:[]
