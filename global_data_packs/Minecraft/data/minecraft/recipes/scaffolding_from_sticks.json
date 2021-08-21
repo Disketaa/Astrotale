@@ -7,7 +7,7 @@
   ],
   "key": {
     "~": {
-      "tag": "astrotale:crafting_tables"
+      "tag": "minecraft:string"
     },
     "I": {
       "item": "minecraft:stick"
