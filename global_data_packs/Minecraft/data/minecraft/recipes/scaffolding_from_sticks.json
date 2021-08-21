@@ -7,7 +7,7 @@
   ],
   "key": {
     "~": {
-      "tag": "minecraft:string"
+      "item": "minecraft:string"
     },
     "I": {
       "item": "minecraft:stick"
