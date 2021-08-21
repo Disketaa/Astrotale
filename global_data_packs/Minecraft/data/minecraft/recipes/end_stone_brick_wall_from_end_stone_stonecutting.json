@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "betterendforge:endstone_dust"
+  },
+  "result": "minecraft:end_stone_brick_wall",
+  "count": 1
+}

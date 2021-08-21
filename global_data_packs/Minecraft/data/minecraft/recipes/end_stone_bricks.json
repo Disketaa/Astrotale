@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "betterendforge:endstone_dust"
+    }
+  },
+  "result": {
+    "item": "minecraft:end_stone_bricks",
+    "count": 9
+  }
+}

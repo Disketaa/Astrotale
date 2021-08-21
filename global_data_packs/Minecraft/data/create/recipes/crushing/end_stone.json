@@ -1,0 +1,14 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:end_stone_bricks"
+    }
+  ],
+  "results": [
+    {
+      "item": "betterendforge:endstone_dust"
+    }
+  ],
+  "processingTime": 150
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "tag": "astrotale:sands"
+    }
+  ],
+  "result": {
+    "item": "create:sand_paper"
+  }
+}
