@@ -99,19 +99,19 @@
       },	  
       {
         "type": "endergetic:booflo",
-        "weight": 15,
+        "weight": 10,
         "minCount": 1,
         "maxCount": 4
       },
       {
         "type": "endergetic:booflo_baby",
-        "weight": 5,
-        "minCount": 1,
+        "weight": 4,
+        "minCount": 2,
         "maxCount": 2
       },
       {
         "type": "betterendforge:end_slime",
-        "weight": 10,
+        "weight": 7,
         "minCount": 1,
         "maxCount": 4
       }         

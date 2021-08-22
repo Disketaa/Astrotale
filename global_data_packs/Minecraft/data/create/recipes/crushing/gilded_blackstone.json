@@ -1,0 +1,33 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:gilded_blackstone"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:gold_nugget",
+      "count": 7
+    },
+    {
+      "item": "minecraft:gold_nugget",
+      "count": 3,
+      "chance": 0.3
+    },
+    {
+      "item": "minecraft:blackstone",
+      "chance": 0.125
+    }
+  ],
+  "processingTime": 300,
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:ores/gold",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ]
+}

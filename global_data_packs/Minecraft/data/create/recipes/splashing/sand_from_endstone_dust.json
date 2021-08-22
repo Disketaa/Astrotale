@@ -1,0 +1,13 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "betterendforge:endstone_dust"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:sand"
+    }
+  ]
+}
