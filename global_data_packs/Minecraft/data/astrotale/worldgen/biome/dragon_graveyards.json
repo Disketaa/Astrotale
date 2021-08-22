@@ -28,8 +28,6 @@
     [],
     [],
     [
-      "astrotale:blob_cobblestone",
-      "astrotale:blob_violecite",
       "minecraft:ore_gravel",
       "minecraft:ore_granite",
       "minecraft:ore_diorite",
@@ -43,7 +41,8 @@
       "astrotale:ore_redstone",
       "astrotale:ore_zinc",
       "minecraft:disk_clay",
-      "minecraft:disk_gravel"	  
+      "minecraft:disk_gravel",
+      "astrotale:blob_violecite"
     ],
     [],
     [

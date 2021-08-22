@@ -11,6 +11,7 @@ renders/*
 changelog.txt
 ds_private_storage.json
 minecraftinstance.json
+options.txt
 options-default.txt
 servers.dat
 servers.dat_old
