@@ -17,7 +17,7 @@
                 "state": {
                   "Name": "minecraft:coal_ore"
                 },
-                "size": 24
+                "size": 20
               },
               "type": "minecraft:ore"
             },
@@ -40,7 +40,7 @@
     "decorator": {
       "type": "minecraft:count",
       "config": {
-        "count": 30
+        "count": 24
       }
     }
   }

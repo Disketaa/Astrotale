@@ -1,6 +1,6 @@
 {
   "effects": {
-    "ambient_sound": "betterendforge:betterendforge.ambient.glowing_grasslands",    
+    "ambient_sound": "betterendforge:betterendforge.ambient.glowing_grasslands",
     "sky_color": 4365705,
     "fog_color": 6546679,
     "water_color": 6093542,
@@ -34,7 +34,7 @@
       "minecraft:ore_gravel",
       "minecraft:ore_granite",
       "minecraft:ore_diorite",
-      "minecraft:ore_andesite",      
+      "minecraft:ore_andesite",
       "astrotale:ore_coal",
       "astrotale:ore_copper",
       "astrotale:ore_diamond",
@@ -45,7 +45,7 @@
       "astrotale:ore_thalassium",
       "astrotale:ore_zinc",
       "minecraft:disk_clay",
-      "minecraft:disk_gravel",   
+      "minecraft:disk_gravel",
       "astrotale:blob_violecite"
     ],
     [     
@@ -114,7 +114,13 @@
         "weight": 10,
         "minCount": 1,
         "maxCount": 2
-      }
+      },
+      {
+        "type": "alexsmobs:emu",
+        "weight": 24,
+        "minCount": 1,
+        "maxCount": 3
+      }      
     ],
     "misc": [],
     "monster": [
@@ -174,7 +180,7 @@
   "category": "plains",
   "precipitation": "rain",
   "surface_builder": "astrotale:glowing_grasslands",
-  "scale": 0.05,
+  "scale": 0.025,
   "downfall": 0,
   "depth": 0.125,
   "temperature": 0.5,

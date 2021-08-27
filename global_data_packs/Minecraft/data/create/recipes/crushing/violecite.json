@@ -1,0 +1,14 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "betterendforge:violecite"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:cobblestone"
+    }
+  ],
+  "processingTime": 200
+}

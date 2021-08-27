@@ -1,0 +1,92 @@
+{
+  "effects": {
+    "ambient_sound": "betterendforge:betterendforge.ambient.glowing_grasslands",
+    "sky_color": 4365705,
+    "fog_color": 6546679,
+    "water_color": 6093542,
+    "water_fog_color": 6093542,
+    "foliage_color": 4767935,
+    "grass_color": 4767935,
+    "particle": {
+      "options": {
+        "type": "betterendforge:firefly"
+      },
+      "probability": 0.001
+    }
+  },
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:canyon"
+    ]
+  },
+  "starts": [],
+  "features": [
+    [], 
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:ore_gravel",
+      "minecraft:ore_granite",
+      "minecraft:ore_diorite",
+      "minecraft:ore_andesite",
+      "astrotale:ore_coal",
+      "astrotale:ore_copper",
+      "astrotale:ore_diamond",
+      "astrotale:ore_gold",
+      "astrotale:ore_iron",
+      "astrotale:ore_lapis",
+      "astrotale:ore_redstone",
+      "astrotale:ore_thalassium",
+      "astrotale:ore_zinc",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel",
+      "astrotale:blob_violecite"
+    ],
+    [],
+    [
+      "astrotale:grass",
+      "astrotale:blob_glowing_sea",
+      "minecraft:kelp_cold",
+      "betterendforge:end_lily_rare",
+      "betterendforge:umbrella_moss",
+      "betterendforge:creeping_moss",
+      "betterendforge:charnia_cyan",
+      "betterendforge:charnia_light_blue",
+      "betterendforge:charnia_red_rare" 
+    ],
+    []
+  ],
+  "spawners": {
+    "ambient": [],
+    "misc": [],
+    "monster": [],
+    "water_ambient": [
+       {
+        "type": "minecraft:salmon",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "betterendforge:end_fish",
+        "weight": 2,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "water_creature": []
+  },
+  "category": "river",
+  "precipitation": "rain",
+  "surface_builder": "astrotale:river",
+  "scale": 0.1,
+  "downfall": 0,
+  "depth": -0.35,
+  "temperature": 0.5,
+  "player_spawn_friendly": true,
+  "spawn_costs": {}
+}
