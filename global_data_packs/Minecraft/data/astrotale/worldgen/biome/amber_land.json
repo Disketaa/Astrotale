@@ -4,7 +4,7 @@
     "fog_color": 16758855,
     "water_color": 9530440,
     "water_fog_color": 9530440,
-    "foliage_color": 11293217,
+    "foliage_color": 11296780,
     "grass_color": 11293217,
     "particle": {
       "options": {
@@ -19,12 +19,13 @@
       "minecraft:canyon"
     ]
   },
-  "starts": [],
+  "starts": [
+      "astrotale:amber_tree_1",    
+      "astrotale:campfire"    
+  ],
   "features": [
     [],
-    [
-	  "betterendforge:end_lake_rare"
-    ],
+    [],
     [],
     [],
     [],
@@ -49,20 +50,11 @@
     ],
     [],
     [
-      "astrotale:patch_grass",
-      "astrotale:grass",
-      "astrotale:grass_tall",
-      "astrotale:fern",
-      "astrotale:fern_large",
-      "betterendforge:helix_tree",
-  	  "betterendforge:lanceleaf",
-  	  "betterendforge:glow_pillar",
-  	  "betterendforge:amber_grass",
-  	  "betterendforge:bulb_moss",
-  	  "betterendforge:bulb_moss_wood",
-  	  "betterendforge:charnia_orange",
-  	  "betterendforge:charnia_red",
-      "minecraft:pile_pumpkin"
+      "astrotale:nature/amber_grass",
+      "astrotale:nature/grass",
+      "astrotale:nature/grass_tall",
+      "astrotale:nature/fern",
+      "astrotale:nature/fern_large"
     ],
     []
   ],
@@ -70,7 +62,7 @@
     "ambient": [
       {
         "type": "minecraft:bat",
-        "weight": 10,
+        "weight": 100,
         "minCount": 8,
         "maxCount": 8
       }

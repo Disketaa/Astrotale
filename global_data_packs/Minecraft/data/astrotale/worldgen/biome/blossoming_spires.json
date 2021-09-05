@@ -14,11 +14,13 @@
       "minecraft:canyon"
     ]
   },
-  "starts": [],
+  "starts": [
+      "astrotale:campfire"
+  ],
   "features": [
     [],
     [
-	  "betterendforge:end_lake_rare"
+	    "betterendforge:end_lake_rare"
     ],
     [],
     [],

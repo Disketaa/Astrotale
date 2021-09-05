@@ -159,12 +159,7 @@ customization {
   width = 534
   action = addtexture
   actionid = 4347363a-9c27-4469-a67f-ee9a5b8492d81628947986013
-  y = -111
+  y = -92
   height = 150
-}
-
-customization {
-  identifier = %id=376322%
-  action = hidebutton
 }
 

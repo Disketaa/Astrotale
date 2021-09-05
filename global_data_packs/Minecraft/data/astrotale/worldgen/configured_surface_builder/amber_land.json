@@ -1,7 +1,10 @@
 {
   "config": {
     "top_material": {
-      "Name": "betterendforge:amber_moss"
+      "Name": "minecraft:grass_block",
+      "Properties": {
+        "snowy": "false"
+      }
     },
     "under_material": {
       "Name": "minecraft:dirt"

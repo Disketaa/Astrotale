@@ -14,7 +14,7 @@ reducedDebugInfo:false
 snooperEnabled:false
 showSubtitles:false
 touchscreen:false
-fullscreen:false
+fullscreen:true
 bobView:true
 toggleCrouch:false
 toggleSprint:false
@@ -25,7 +25,7 @@ fovEffectScale:1.0
 gamma:0.0
 renderDistance:8
 entityDistanceScaling:1.0
-guiScale:2
+guiScale:1
 particles:0
 maxFps:260
 difficulty:2
@@ -109,15 +109,12 @@ key_key.invtweaks_sort_inventory.desc:key.keyboard.unknown
 key_key.invtweaks_sort_either.desc:key.mouse.middle
 key_placebo.toggleWings:key.keyboard.unknown
 key_placebo.toggleTrails:key.keyboard.unknown
-key_key.toastcontrol.clear:key.keyboard.unknown
-key_fpsreducer.key.openGui:key.keyboard.unknown
-key_fpsreducer.key.forceIdle:key.keyboard.unknown
 key_key.endergetic.booflo_vest:key.keyboard.space
 key_key.endergetic.booflo_slam:key.keyboard.unknown
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
-key_key.trashslot.toggle:key.keyboard.t
-key_key.trashslot.delete:key.keyboard.delete
-key_key.trashslot.deleteAll:key.keyboard.delete:SHIFT
+key_key.toastcontrol.clear:key.keyboard.unknown
+key_fpsreducer.key.openGui:key.keyboard.unknown
+key_fpsreducer.key.forceIdle:key.keyboard.unknown
 key_key.jei.toggleOverlay:key.keyboard.o:CONTROL
 key_key.jei.focusSearch:key.keyboard.f:CONTROL
 key_key.jei.toggleCheatMode:key.keyboard.unknown

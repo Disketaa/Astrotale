@@ -20,7 +20,9 @@
       "minecraft:canyon"
     ]
   },
-  "starts": [],
+  "starts": [
+      "astrotale:campfire"    
+  ],
   "features": [
     [], 
     [

@@ -20,7 +20,10 @@
       "minecraft:canyon"
     ]
   },
-  "starts": [],
+  "starts": [
+      "astrotale:neon_cactus",
+      "astrotale:fossil"
+  ],
   "features": [
     [],
     [

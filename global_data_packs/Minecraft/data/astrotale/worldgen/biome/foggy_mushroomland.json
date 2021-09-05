@@ -21,7 +21,8 @@
     ]
   },
   "starts": [
-  	"betterendforge:giant_mossy_glowshroom"
+    	"betterendforge:giant_mossy_glowshroom",
+      "astrotale:campfire"    
   ],
   "features": [
     [],
