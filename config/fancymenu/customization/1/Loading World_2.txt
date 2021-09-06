@@ -28,6 +28,6 @@ customization {
   y = -19
   scale = 1.0
   alignment = left
-  value = [i] Tip 1
+  value = [i] Tip 2
 }
 

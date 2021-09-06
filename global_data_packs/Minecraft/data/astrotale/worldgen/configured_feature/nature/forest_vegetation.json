@@ -1,0 +1,83 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "feature": {
+      "config": {
+        "whitelist": [
+          {
+            "Properties": {
+              "snowy": "false"
+            },
+            "Name": "minecraft:grass_block"
+          }
+        ],
+        "blacklist": [],
+        "tries": 64,
+        "state_provider": {
+          "type": "minecraft:weighted_state_provider",
+          "entries": [
+            {
+              "weight": 5,
+              "data": {
+                "Name": "minecraft:grass"
+              }
+            },
+            {
+              "weight": 5,
+              "data": {
+                "Name": "minecraft:fern"
+              }
+            },
+            {
+              "weight": 2,
+              "data": {
+                "Name": "astrotale:leaves_pile",
+                "Properties": {
+                  "facing": "north"
+                }         
+              }
+            },
+            {
+              "weight": 2,
+              "data": {
+                "Name": "astrotale:leaves_pile",
+                "Properties": {
+                  "facing": "east"
+                }         
+              }
+            },
+            {
+              "weight": 2,
+              "data": {
+                "Name": "astrotale:leaves_pile",
+                "Properties": {
+                  "facing": "south"
+                }         
+              }
+            },
+            {
+              "weight": 2,
+              "data": {
+                "Name": "astrotale:leaves_pile",
+                "Properties": {
+                  "facing": "west"
+                }         
+              }
+            }                                          
+          ]
+        },
+        "block_placer": {
+          "type": "minecraft:simple_block_placer"
+        }
+      },
+      "type": "minecraft:random_patch",
+      "name": "astrotale:forest_vegetation"
+    },
+    "decorator": {
+      "type": "minecraft:count_multilayer",
+      "config": {
+        "count": 3
+      }
+    }
+  }
+}

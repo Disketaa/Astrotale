@@ -9,10 +9,10 @@
           "config": {
             "whitelist": [],
             "blacklist": [],
-            "tries": 96,
+            "tries": 64,
             "state_provider": {
               "state": {
-                "Name": "astrotale:amber_grass"
+                "Name": "astrotale:grass_sprouts"
               },
               "type": "minecraft:simple_state_provider"
             },
@@ -23,9 +23,9 @@
           "type": "minecraft:random_patch"
         },
         "decorator": {
-          "type": "minecraft:count",
+          "type": "minecraft:count_multilayer",
           "config": {
-            "count": 8
+            "count": 3
           }
         }
       }

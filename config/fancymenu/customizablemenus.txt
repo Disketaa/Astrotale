@@ -33,3 +33,6 @@ net.minecraft.client.gui.screen.WorldLoadProgressScreen {
 net.minecraft.client.gui.screen.MainMenuScreen {
 }
 
+net.minecraft.client.gui.screen.DirtMessageScreen {
+}
+

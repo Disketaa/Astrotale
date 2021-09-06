@@ -1,0 +1,3 @@
+piano1: "Asher Fulero - Surrender"
+piano2: "Asher Fulero - In The Throes"
+piano3: "Asher Fulero - Wind Riders"

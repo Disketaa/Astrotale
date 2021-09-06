@@ -1,0 +1,7 @@
+{
+  "parent": "block/tinted_cross",
+  "textures": {
+    "cross": "astrotale:blocks/grass_sprouts",
+    "particle": "astrotale:blocks/grass_sprouts"
+  }
+}

@@ -4,7 +4,7 @@
     "fog_color": 16758855,
     "water_color": 9530440,
     "water_fog_color": 9530440,
-    "foliage_color": 11296780,
+    "foliage_color": 12217879,
     "grass_color": 11293217,
     "particle": {
       "options": {
@@ -19,8 +19,7 @@
       "minecraft:canyon"
     ]
   },
-  "starts": [
-      "astrotale:amber_tree_1",    
+  "starts": [   
       "astrotale:campfire"    
   ],
   "features": [
@@ -50,11 +49,12 @@
     ],
     [],
     [
-      "astrotale:nature/amber_grass",
-      "astrotale:nature/grass",
+      "astrotale:nature/amber_tree",
+      "astrotale:nature/amber_bush",
+      "astrotale:nature/grass_sprouts",
       "astrotale:nature/grass_tall",
-      "astrotale:nature/fern",
-      "astrotale:nature/fern_large"
+      "astrotale:nature/fern_large",
+      "astrotale:nature/forest_vegetation"
     ],
     []
   ],
@@ -62,7 +62,7 @@
     "ambient": [
       {
         "type": "minecraft:bat",
-        "weight": 100,
+        "weight": 10,
         "minCount": 8,
         "maxCount": 8
       }
@@ -70,38 +70,38 @@
     "creature": [
       {
         "type": "minecraft:fox",
-        "weight": 80,
-        "minCount": 1,
+        "weight": 32,
+        "minCount": 2,
         "maxCount": 4
       },
       {
         "type": "minecraft:rabbit",
-        "weight": 40,
+        "weight": 32,
         "minCount": 2,
         "maxCount": 5
       },
       {
         "type": "minecraft:sheep",
-        "weight": 40,
-        "minCount": 2,
+        "weight": 12,
+        "minCount": 4,
         "maxCount": 4
       },
       {
         "type": "minecraft:pig",
-        "weight": 40,
-        "minCount": 2,
+        "weight": 10,
+        "minCount": 4,
         "maxCount": 4
       },
       {
         "type": "minecraft:chicken",
-        "weight": 40,
-        "minCount": 2,
+        "weight": 10,
+        "minCount": 4,
         "maxCount": 4
       },
       {
         "type": "minecraft:cow",
-        "weight": 32,
-        "minCount": 2,
+        "weight": 8,
+        "minCount": 4,
         "maxCount": 4
       }    
 	],
@@ -110,13 +110,13 @@
       {
         "type": "minecraft:spider",
         "weight": 100,
-        "minCount": 1,
+        "minCount": 4,
         "maxCount": 4
       },
       {
         "type": "minecraft:zombie",
         "weight": 95,
-        "minCount": 1,
+        "minCount": 4,
         "maxCount": 4
       },
       {
@@ -128,20 +128,20 @@
       {
         "type": "minecraft:skeleton",
         "weight": 100,
-        "minCount": 1,
+        "minCount": 4,
         "maxCount": 4
       },
       {
         "type": "minecraft:creeper",
         "weight": 100,
-        "minCount": 1,
+        "minCount": 4,
         "maxCount": 4
       },
       {
         "type": "minecraft:enderman",
         "weight": 150,
         "minCount": 1,
-        "maxCount": 6
+        "maxCount": 4
       } 
     ],
     "water_ambient": [
@@ -158,7 +158,7 @@
   "precipitation": "rain",
   "surface_builder": "astrotale:amber_land",
   "scale": 0.2,
-  "downfall": 0.4,
+  "downfall": 0.0,
   "depth": 0.1,
   "temperature": 0.5,
   "player_spawn_friendly": true,

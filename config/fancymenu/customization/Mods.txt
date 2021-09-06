@@ -8,9 +8,3 @@ customization-meta {
   randomonlyfirsttime = false
 }
 
-customization {
-  path = config/fancymenu/audio/Main Theme.wav
-  loop = false
-  action = addaudio
-}
-

@@ -19,20 +19,20 @@
       ],
 
       "altitude_noise": {
-        "firstOctave": -9,
-        "amplitudes": [1.0, 0.5, 0.25, 0.1]
+        "firstOctave": 0,
+        "amplitudes": []
       },
       "humidity_noise": {
-        "firstOctave": -9,
-        "amplitudes": [1.0]
+        "firstOctave": 0,
+        "amplitudes": []
       },
       "temperature_noise": {
-        "firstOctave": -8,
-        "amplitudes": [1.0]
+        "firstOctave": 0,
+        "amplitudes": []
       },
       "weirdness_noise": {
-        "firstOctave": -5,
-        "amplitudes": [1.0]
+        "firstOctave": 0,
+        "amplitudes": []
       }
     },
     "settings": "minecraft:overworld"

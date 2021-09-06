@@ -9,12 +9,6 @@ customization-meta {
 }
 
 customization {
-  path = config/fancymenu/audio/Main Theme.wav
-  loop = false
-  action = addaudio
-}
-
-customization {
   identifier = %id=505151%
   action = hidebutton
 }

@@ -8,7 +8,7 @@ B:playbackgroundsoundsinworld = 'false';
 B:playbackgroundsounds = 'true';
 [A minecraft restart is required after changing this value.]
 B:enablehotkeys = 'true';
-B:playmenumusic = 'true';
+B:playmenumusic = 'false';
 B:showdebugwarnings = 'true';
 [Sets the default GUI scale on first launch. Useful for modpacks. Cache data is saved in '/mods/fancymenu/'.]
 I:defaultguiscale = '-1';
@@ -54,14 +54,14 @@ S:customgameintroskiptext = '';
 ##[minecraftwindow]
 
 [A minecraft restart is required after changing this value.]
-S:customwindowtitle = 'Astrotale' a1.6.1 (dev)';
+S:customwindowtitle = 'Astrotale' a1.6.2 (dev)';
 [A minecraft restart is required after changing this value.]
 B:customwindowicon = 'true';
 
 
 ##[world_loading_screen]
 
-B:showloadingscreenanimation = 'false';
+B:showloadingscreenanimation = 'true';
 B:showloadingscreenpercent = 'true';
 
 

@@ -1,0 +1,41 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Disketaa",
+      "uniqueId": "47c485d4-93a5-45f1-a7fe-d3af5f78db76"
+    },
+    "time": 1630870162284,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/9krPhNEQzC"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Disketaa",
+      "uniqueId": "47c485d4-93a5-45f1-a7fe-d3af5f78db76"
+    },
+    "time": 1630849262928,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/vl1dU0UUVP"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Disketaa",
+      "uniqueId": "47c485d4-93a5-45f1-a7fe-d3af5f78db76"
+    },
+    "time": 1630848860031,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/cOq0jq37JQ"
+    }
+  }
+]

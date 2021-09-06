@@ -34,7 +34,7 @@
 	#Range: 0 ~ 2
 	hudBehindChatBox = 2
 	#Force reducing FPS if the window is inactive.
-	reducingInBackground = true
+	reducingInBackground = false
 	#Suppression master volume ratio in inactive (0-100).
 	#Range: 0 ~ 100
 	suppressedVolume = 20
