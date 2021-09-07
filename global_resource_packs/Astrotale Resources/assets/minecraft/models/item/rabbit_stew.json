@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "particle": "minecraft:item/food_overlay/rabbit_stew",    
+    "layer0": "minecraft:item/rabbit_stew"
+  }
+}

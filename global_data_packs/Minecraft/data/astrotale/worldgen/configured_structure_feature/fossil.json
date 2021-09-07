@@ -1,7 +1,0 @@
-{
-	"config": {
-		"start_pool": "astrotale:fossil",
-        "size": 7		
-	},
-	"type": "minecraft:village"
-}

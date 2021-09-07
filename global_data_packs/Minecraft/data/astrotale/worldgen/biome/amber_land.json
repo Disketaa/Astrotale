@@ -1,5 +1,6 @@
 {
-  "effects": {    
+  "effects": {
+    "ambient_sound": "betterendforge:betterendforge.ambient.foggy_mushroomland",   
     "sky_color": 4365705,
     "fog_color": 16758855,
     "water_color": 9530440,
@@ -19,9 +20,7 @@
       "minecraft:canyon"
     ]
   },
-  "starts": [   
-      "astrotale:campfire"    
-  ],
+  "starts": [],
   "features": [
     [],
     [],
@@ -43,15 +42,14 @@
       "astrotale:ore_lapis",
       "astrotale:ore_redstone",
       "astrotale:ore_zinc",
-      "minecraft:disk_clay",
-      "minecraft:disk_gravel",
       "astrotale:blob_violecite"
     ],
     [],
     [
       "astrotale:nature/amber_tree",
       "astrotale:nature/amber_bush",
-      "astrotale:nature/grass_sprouts",
+      "astrotale:nature/sprouts_orange",
+      "astrotale:nature/glowlight_mushroom",
       "astrotale:nature/grass_tall",
       "astrotale:nature/fern_large",
       "astrotale:nature/forest_vegetation"
@@ -59,48 +57,60 @@
     []
   ],
   "spawners": {
-    "ambient": [
+    "ambient": [   
       {
         "type": "minecraft:bat",
         "weight": 10,
         "minCount": 8,
         "maxCount": 8
-      }
+      },
+      {
+        "type": "alexsmobs:crow",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      },      
     ],
     "creature": [
       {
+        "type": "alexsmobs:raccoon",
+        "weight": 48,
+        "minCount": 2,
+        "maxCount": 4
+      },      
+      {
         "type": "minecraft:fox",
-        "weight": 32,
+        "weight": 48,
         "minCount": 2,
         "maxCount": 4
       },
       {
         "type": "minecraft:rabbit",
-        "weight": 32,
+        "weight": 48,
         "minCount": 2,
         "maxCount": 5
       },
       {
         "type": "minecraft:sheep",
-        "weight": 12,
+        "weight": 24,
         "minCount": 4,
         "maxCount": 4
       },
       {
         "type": "minecraft:pig",
-        "weight": 10,
+        "weight": 20,
         "minCount": 4,
         "maxCount": 4
       },
       {
         "type": "minecraft:chicken",
-        "weight": 10,
+        "weight": 20,
         "minCount": 4,
         "maxCount": 4
       },
       {
         "type": "minecraft:cow",
-        "weight": 8,
+        "weight": 16,
         "minCount": 4,
         "maxCount": 4
       }    
