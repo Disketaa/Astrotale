@@ -7,7 +7,14 @@
       "config": {
         "feature": {
           "config": {
-            "whitelist": [],
+            "whitelist": [
+              {
+                "Name": "minecraft:grass_block",
+                "Properties": {
+                  "snowy": "false"
+                }
+              }                       
+            ],
             "blacklist": [],
             "tries": 64,
             "state_provider": {

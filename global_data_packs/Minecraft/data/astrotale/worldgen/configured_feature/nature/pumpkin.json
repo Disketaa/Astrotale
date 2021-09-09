@@ -3,7 +3,7 @@
   "config": {
     "feature": {
       "type": "minecraft:decorated",
-      "name": "astrotale:glowlight_mushroom",
+      "name": "astrotale:pumpkin",
       "config": {
         "feature": {
           "config": {
@@ -16,10 +16,10 @@
               }                       
             ],
             "blacklist": [],
-            "tries": 4,
+            "tries": 1,
             "state_provider": {
               "state": {
-                "Name": "astrotale:glowlight_mushroom"
+                "Name": "minecraft:pumpkin"
               },
               "type": "minecraft:simple_state_provider"
             },
@@ -30,9 +30,9 @@
           "type": "minecraft:random_patch"
         },
         "decorator": {
-          "type": "minecraft:count_multilayer",
+          "type": "minecraft:chance",
           "config": {
-            "count": 1
+            "chance": 1
           }
         }
       }

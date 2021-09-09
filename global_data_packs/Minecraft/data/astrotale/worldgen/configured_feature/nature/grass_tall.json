@@ -12,7 +12,14 @@
                 "xspread": 7,
                 "yspread": 3,
                 "zspread": 7,
-                "whitelist": [],
+                "whitelist": [
+                  {
+                    "Name": "minecraft:grass_block",
+                    "Properties": {
+                      "snowy": "false"
+                    }
+                  }                       
+                ],
                 "blacklist": [],
                 "tries": 64,
                 "state_provider": {

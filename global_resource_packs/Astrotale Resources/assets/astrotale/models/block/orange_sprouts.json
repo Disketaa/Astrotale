@@ -1,0 +1,7 @@
+{
+    "parent": "block/cross",
+    "textures": {
+        "particle": "astrotale:blocks/orange_sprouts",
+        "cross": "astrotale:blocks/orange_sprouts"
+    }
+}

@@ -20,7 +20,7 @@
             "decorators": [],
             "trunk_provider": {
               "state": {
-                "Name": "minecraft:spruce_log",
+                "Name": "astrotale:amber_tree_log",
                 "Properties": {
                   "axis": "y"
                 }
@@ -33,7 +33,7 @@
                   "persistent": "false",
                   "distance": "7"
                 },
-                "Name": "minecraft:oak_leaves"
+                "Name": "astrotale:amber_tree_leaves"
               },
               "type": "minecraft:simple_state_provider"
             },

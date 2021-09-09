@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "": [
+			{ "model": "astrotale:block/orange_sprouts" },
+			{ "model": "astrotale:block/orange_sprouts1" }
+		]
+    }
+}
