@@ -44,6 +44,5 @@ mods.jei.JEI.hideRegex(".*creative.*");
 // TheOneProbe
 mods.jei.JEI.hideMod("theoneprobe", (name as string) => {return name == "stone";});
 
-// Betterend
-mods.jei.JEI.hideItem(<item:betterendforge:pearlberry_seed>);
-mods.jei.JEI.hideItem(<item:betterendforge:umbrella_tree_sapling>);
+// FTB
+mods.jei.JEI.hideMod("ftblibrary", (name as string) => {return name == "stone";});

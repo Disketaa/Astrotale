@@ -1,9 +1,0 @@
-{
-    "variants": {
-        "": [
-			{ "model": "astrotale:block/glowlight_mushroom" },
-			{ "model": "astrotale:block/glowlight_mushroom1" },
-			{ "model": "astrotale:block/glowlight_mushroom2" }
-		]
-    }
-}

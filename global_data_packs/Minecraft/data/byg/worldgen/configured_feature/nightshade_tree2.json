@@ -1,0 +1,79 @@
+{
+  "config": {
+    "min_height": 22,
+    "max_height": 31,
+    "disk_radius": 0,
+    "whitelist": [
+      {
+        "Properties": {
+          "snowy": "false"
+        },
+        "Name": "minecraft:grass_block"
+      }
+    ],
+    "trunk_provider": {
+      "entries": [
+        {
+          "weight": 9,
+          "data": {
+            "Properties": {
+              "axis": "y"
+            },
+            "Name": "byg:nightshade_log"
+          }
+        },
+        {
+          "weight": 0,
+          "data": {
+            "Properties": {
+              "axis": "y"
+            },
+            "Name": "byg:imbued_nightshade_log"
+          }
+        }
+      ],
+      "type": "minecraft:weighted_state_provider"
+    },
+    "leaves_provider": {
+      "entries": [
+        {
+          "weight": 3,
+          "data": {
+            "Properties": {
+              "persistent": "false",
+              "distance": "7"
+            },
+            "Name": "byg:flowering_nightshade_leaves"
+          }
+        },
+        {
+          "weight": 8,
+          "data": {
+            "Properties": {
+              "persistent": "false",
+              "distance": "7"
+            },
+            "Name": "byg:nightshade_leaves"
+          }
+        }
+      ],
+      "type": "minecraft:weighted_state_provider"
+    },
+    "ground_replacement_provider": {
+      "state": {
+        "Name": "minecraft:dirt"
+      },
+      "type": "minecraft:simple_state_provider"
+    },
+    "disk_provider": {
+      "state": {
+        "Properties": {
+          "snowy": "false"
+        },
+        "Name": "minecraft:podzol"
+      },
+      "type": "minecraft:simple_state_provider"
+    }
+  },
+  "type": "byg:nightshade_tree2"
+}

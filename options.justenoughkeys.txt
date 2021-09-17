@@ -32,6 +32,7 @@ modifiers.key.hotbar.6:
 modifiers.key.hotbar.7:
 modifiers.key.hotbar.8:
 modifiers.key.hotbar.9:
+modifiers.key.create_stuff_additions.flying:
 modifiers.Reload Menu | CTRL + ALT + :
 modifiers.Toggle Customization Overlay | CTRL + ALT + :
 modifiers.key.toggleLiquids:

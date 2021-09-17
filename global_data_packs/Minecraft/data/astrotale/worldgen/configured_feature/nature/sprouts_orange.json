@@ -19,7 +19,7 @@
             "tries": 64,
             "state_provider": {
               "state": {
-                "Name": "astrotale:orange_sprouts"
+                "Name": "byg:embur_sprouts"
               },
               "type": "minecraft:simple_state_provider"
             },

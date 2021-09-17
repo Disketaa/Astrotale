@@ -1,7 +1,0 @@
-{
-    "parent": "block/cross",
-    "textures": {
-        "particle": "astrotale:blocks/glowlight_mushroom",
-        "cross": "astrotale:blocks/glowlight_mushroom"
-    }
-}

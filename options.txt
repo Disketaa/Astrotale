@@ -22,7 +22,7 @@ mouseSensitivity:0.5
 fov:1.0
 screenEffectScale:1.0
 fovEffectScale:1.0
-gamma:1.0
+gamma:2.0
 renderDistance:6
 entityDistanceScaling:0.5
 guiScale:2
@@ -30,10 +30,10 @@ particles:0
 maxFps:60
 difficulty:2
 graphicsMode:1
-ao:0
+ao:2
 biomeBlendRadius:4
 renderClouds:true
-resourcePacks:["vanilla","mod_resources","file/Astrotale Resources","file/Main/Xali\u0027s Enhanced Vanilla","file/Main/Mo\u0027s Vibrancy Pack","file/Main/Brunozamp\u0027s Foliage"]
+resourcePacks:["vanilla","mod_resources","file/Astrotale Resources","file/Main/Xali\u0027s Enhanced Vanilla","file/Main/Motschen\u0027s Better Leaves","file/Main/Mo\u0027s Vibrancy Pack"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -100,6 +100,7 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
+key_key.create_stuff_additions.flying:key.keyboard.space
 key_Reload Menu | CTRL + ALT + :key.keyboard.unknown
 key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.unknown
 key_key.toggleLiquids:key.keyboard.unknown

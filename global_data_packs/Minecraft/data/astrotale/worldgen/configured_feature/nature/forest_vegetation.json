@@ -25,45 +25,27 @@
             {
               "weight": 5,
               "data": {
+                "Name": "byg:wilted_grass"
+              }
+            },
+            {
+              "weight": 5,
+              "data": {
+                "Name": "byg:weed_grass"
+              }
+            },
+            {
+              "weight": 5,
+              "data": {
+                "Name": "byg:short_grass"
+              }
+            },                                  
+            {
+              "weight": 2,
+              "data": {
                 "Name": "minecraft:fern"
               }
-            },
-            {
-              "weight": 2,
-              "data": {
-                "Name": "astrotale:leaves_pile",
-                "Properties": {
-                  "facing": "north"
-                }         
-              }
-            },
-            {
-              "weight": 2,
-              "data": {
-                "Name": "astrotale:leaves_pile",
-                "Properties": {
-                  "facing": "east"
-                }         
-              }
-            },
-            {
-              "weight": 2,
-              "data": {
-                "Name": "astrotale:leaves_pile",
-                "Properties": {
-                  "facing": "south"
-                }         
-              }
-            },
-            {
-              "weight": 2,
-              "data": {
-                "Name": "astrotale:leaves_pile",
-                "Properties": {
-                  "facing": "west"
-                }         
-              }
-            }                                          
+            }                                      
           ]
         },
         "block_placer": {
@@ -76,7 +58,7 @@
     "decorator": {
       "type": "minecraft:count_multilayer",
       "config": {
-        "count": 3
+        "count": 6
       }
     }
   }
