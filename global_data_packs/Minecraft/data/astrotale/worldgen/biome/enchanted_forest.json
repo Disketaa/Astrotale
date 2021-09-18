@@ -1,0 +1,158 @@
+{
+  "effects": {
+    "ambient_sound": "minecraft:ambient.crimson_forest.loop",   
+    "sky_color": 4365705,
+    "fog_color": 12311508,
+    "water_color": 5812945,
+    "water_fog_color": 5812945,
+    "foliage_color": 7571634,
+    "grass_color": 7571634,    
+    "particle": {
+      "options": {
+        "type": "minecraft:warped_spore"
+      },
+      "probability": 0.005
+    }
+  },
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:canyon"
+    ]
+  },
+  "starts": [
+    "minecraft:village_plains"
+  ],
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [   
+    ],
+    [
+      "minecraft:ore_gravel",
+      "minecraft:ore_granite",
+      "minecraft:ore_diorite",
+      "minecraft:ore_andesite",
+      "astrotale:ore_amber",    
+      "astrotale:ore_coal",
+      "astrotale:ore_copper",
+      "astrotale:ore_diamond",
+      "astrotale:ore_gold",
+      "astrotale:ore_iron",
+      "astrotale:ore_lapis",
+      "astrotale:ore_redstone",
+      "astrotale:ore_zinc",
+      "astrotale:blob_violecite"
+    ],
+    [],
+    [
+      "astrotale:nature/forest_vegetation",
+      "astrotale:nature/warped_vegetation",
+      "astrotale:nature/grass_tall",
+      "astrotale:nature/fern_large",
+
+      "byg:spruce_blue_trees",
+      "byg:spruce_blue_tree_giant",
+      "byg:enchanted_trees",
+      "byg:beehives",
+      "byg:leaf_piles"
+
+    ],
+    []
+  ],
+  "spawners": {
+    "ambient": [   
+      {
+        "type": "minecraft:bat",
+        "weight": 10,
+        "minCount": 8,
+        "maxCount": 8
+      },
+      {
+        "type": "alexsmobs:hummingbird",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      }     
+    ],
+    "creature": [
+      {
+        "type": "alexsmobs:raccoon",
+        "weight": 32,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "alexsmobs:warped_toad",
+        "weight": 24,
+        "minCount": 2,
+        "maxCount": 4
+      },      
+      {
+        "type": "minecraft:rabbit",
+        "weight": 48,
+        "minCount": 2,
+        "maxCount": 6
+      },
+      {
+        "type": "minecraft:wolf",
+        "weight": 12,
+        "minCount": 2,
+        "maxCount": 4
+      },      
+      {
+        "type": "minecraft:sheep",
+        "weight": 24,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:pig",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:chicken",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:cow",
+        "weight": 16,
+        "minCount": 4,
+        "maxCount": 4
+      }    
+	],
+    "misc": [],
+    "monster": [
+      {
+        "type": "minecraft:spider",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:skeleton",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "category": "forest",
+  "precipitation": "rain",
+  "surface_builder": "astrotale:enchanted_forest",
+  "scale": 0.2,
+  "downfall": 0.0,
+  "depth": 0.1,
+  "temperature": 0.5,
+  "player_spawn_friendly": true,
+  "spawn_costs": {}
+}

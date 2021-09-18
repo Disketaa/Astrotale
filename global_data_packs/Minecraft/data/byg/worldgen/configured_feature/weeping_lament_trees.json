@@ -1,0 +1,177 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "features": [
+          {
+            "feature": {
+              "config": {
+                "min_height": 22,
+                "max_height": 31,
+                "disk_radius": 0,
+                "whitelist": [
+                  {
+                    "Properties": {
+                      "snowy": "false"
+                    },
+                    "Name": "minecraft:grass_block"
+                  }
+                ],
+                "trunk_provider": {
+                  "state": {
+                    "Properties": {
+                      "axis": "y"
+                    },
+                    "Name": "byg:lament_log"
+                  },
+                  "type": "minecraft:simple_state_provider"
+                },
+                "leaves_provider": {
+                  "state": {
+                    "Properties": {
+                      "persistent": "false",
+                      "distance": "7"
+                    },
+                    "Name": "byg:lament_leaves"
+                  },
+                  "type": "minecraft:simple_state_provider"
+                },
+                "ground_replacement_provider": {
+                  "state": {
+                    "Name": "minecraft:dirt"
+                  },
+                  "type": "minecraft:simple_state_provider"
+                },
+                "disk_provider": {
+                  "state": {
+                    "Properties": {
+                      "snowy": "false"
+                    },
+                    "Name": "minecraft:podzol"
+                  },
+                  "type": "minecraft:simple_state_provider"
+                }
+              },
+              "type": "byg:lament_weeping_tree3"
+            },
+            "chance": 0.35
+          },
+          {
+            "feature": {
+              "config": {
+                "min_height": 22,
+                "max_height": 31,
+                "disk_radius": 0,
+                "whitelist": [
+                  {
+                    "Properties": {
+                      "snowy": "false"
+                    },
+                    "Name": "minecraft:grass_block"
+                  }
+                ],
+                "trunk_provider": {
+                  "state": {
+                    "Properties": {
+                      "axis": "y"
+                    },
+                    "Name": "byg:lament_log"
+                  },
+                  "type": "minecraft:simple_state_provider"
+                },
+                "leaves_provider": {
+                  "state": {
+                    "Properties": {
+                      "persistent": "false",
+                      "distance": "7"
+                    },
+                    "Name": "byg:lament_leaves"
+                  },
+                  "type": "minecraft:simple_state_provider"
+                },
+                "ground_replacement_provider": {
+                  "state": {
+                    "Name": "minecraft:dirt"
+                  },
+                  "type": "minecraft:simple_state_provider"
+                },
+                "disk_provider": {
+                  "state": {
+                    "Properties": {
+                      "snowy": "false"
+                    },
+                    "Name": "minecraft:podzol"
+                  },
+                  "type": "minecraft:simple_state_provider"
+                }
+              },
+              "type": "byg:lament_weeping_tree2"
+            },
+            "chance": 0.35
+          }
+        ],
+        "default": {
+          "config": {
+            "min_height": 22,
+            "max_height": 31,
+            "disk_radius": 0,
+            "whitelist": [
+              {
+                "Properties": {
+                  "snowy": "false"
+                },
+                "Name": "minecraft:grass_block"
+              }
+            ],
+            "trunk_provider": {
+              "state": {
+                "Properties": {
+                  "axis": "y"
+                },
+                "Name": "byg:lament_log"
+              },
+              "type": "minecraft:simple_state_provider"
+            },
+            "leaves_provider": {
+              "state": {
+                "Properties": {
+                  "persistent": "false",
+                  "distance": "7"
+                },
+                "Name": "byg:lament_leaves"
+              },
+              "type": "minecraft:simple_state_provider"
+            },
+            "ground_replacement_provider": {
+              "state": {
+                "Name": "minecraft:dirt"
+              },
+              "type": "minecraft:simple_state_provider"
+            },
+            "disk_provider": {
+              "state": {
+                "Properties": {
+                  "snowy": "false"
+                },
+                "Name": "minecraft:podzol"
+              },
+              "type": "minecraft:simple_state_provider"
+            }
+          },
+          "type": "byg:lament_weeping_tree1"
+        }
+      },
+      "type": "minecraft:random_selector"
+    },
+    "decorator": {
+      "config": {
+        "count": 8,
+        "extra_chance": 0.5,
+        "extra_count": 2,
+        "below_sea_level": 2
+      },
+      "type": "byg:at_or_below_sea_level_count_extra"
+    }
+  },
+  "type": "minecraft:decorated"
+}

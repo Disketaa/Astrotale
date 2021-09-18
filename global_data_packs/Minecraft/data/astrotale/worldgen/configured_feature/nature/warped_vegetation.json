@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "feature": {
+      "config": {
+        "whitelist": [
+          {
+            "Properties": {
+              "snowy": "false"
+            },
+            "Name": "minecraft:grass_block"
+          }
+        ],
+        "blacklist": [],
+        "tries": 64,
+        "state_provider": {
+          "type": "minecraft:weighted_state_provider",
+          "entries": [
+            {
+              "weight": 24,
+              "data": {
+                "Name": "minecraft:nether_sprouts"
+              }
+            },
+            {
+              "weight": 8,
+              "data": {
+                "Name": "minecraft:warped_roots"
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "Name": "byg:soul_shroom"
+              }
+            }                                                 
+          ]
+        },
+        "block_placer": {
+          "type": "minecraft:simple_block_placer"
+        }
+      },
+      "type": "minecraft:random_patch",
+      "name": "astrotale:warped_vegetation"
+    },
+    "decorator": {
+      "type": "minecraft:count_multilayer",
+      "config": {
+        "count": 7
+      }
+    }
+  }
+}

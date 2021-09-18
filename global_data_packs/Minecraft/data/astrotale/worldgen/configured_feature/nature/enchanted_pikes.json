@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "feature": {
+      "config": {
+        "whitelist": [
+          {
+            "Properties": {
+              "snowy": "false"
+            },
+            "Name": "minecraft:grass_block"
+          }
+        ],
+        "blacklist": [],
+        "tries": 64,
+        "state_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "byg:blue_enchanted_fence",
+            "Properties": {
+              "east": "false",
+              "north": "false",
+              "south": "false",
+              "waterlogged": "false",
+              "west": "false"
+            }
+          }
+        },
+        "block_placer": {
+          "type": "minecraft:column_placer",
+          "min_size": 2,
+          "extra_size": 4
+        }
+      },
+      "type": "minecraft:random_patch",
+      "name": "astrotale:enchanted_pikes"
+    },
+    "decorator": {
+      "config": {
+        "chance": 64
+      },
+      "type": "minecraft:chance"
+    }
+  }
+}

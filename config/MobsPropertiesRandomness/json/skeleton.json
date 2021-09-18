@@ -1,0 +1,82 @@
+{
+    "mob_id": "minecraft:skeleton",
+    "equipment": {
+        "main_hand": {
+            "override": true,
+            "chance": {
+                "value": 0.6
+            },
+            "items": [
+                {
+                    "id": "create_stuff_additions:zinc_sword",
+                    "weight": {
+                        "value": 4
+                    }
+                },
+                {
+                    "id": "minecraft:iron_sword",
+                    "weight": {
+                        "value": 2
+                    }
+                },
+                {
+                    "id": "minecraft:iron_axe",
+                    "weight": {
+                        "value": 1
+                    }
+                }                
+            ]
+        },
+
+        "off_hand": {
+            "override": true,
+            "chance": {
+                "value": 0.05
+            },
+            "items": [
+                {
+                    "id": "create_stuff_additions:zinc_axe",
+                    "weight": {
+                        "value": 5
+                    }
+                },
+                {
+                    "id": "create_stuff_additions:zinc_hoe",
+                    "weight": {
+                        "value": 3
+                    }
+                }                
+            ]
+        },
+        
+        "head": {
+            "override": true,
+            "chance": {
+                "value": 0.2
+            },
+            "items": [
+                {
+                    "id": "minecraft:chainmail_helmet",
+                    "weight": {
+                        "value": 1
+                    }
+                }                                       
+            ]
+        },
+
+        "chest": {
+            "override": true,
+            "chance": {
+                "value": 0.15
+            },
+            "items": [
+                {
+                    "id": "minecraft:chainmail_chestplate",
+                    "weight": {
+                        "value": 1
+                    }
+                }              
+            ]
+        }           
+    }
+}

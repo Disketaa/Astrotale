@@ -37,10 +37,10 @@ modifiers.Reload Menu | CTRL + ALT + :
 modifiers.Toggle Customization Overlay | CTRL + ALT + :
 modifiers.key.toggleLiquids:
 modifiers.key.toggleVisible:
+modifiers.placebo.toggleWings:
 modifiers.key.invtweaks_sort_player.desc:
 modifiers.key.invtweaks_sort_inventory.desc:
 modifiers.key.invtweaks_sort_either.desc:
-modifiers.placebo.toggleWings:
 modifiers.placebo.toggleTrails:
 modifiers.key.toastcontrol.clear:
 modifiers.fpsreducer.key.openGui:
@@ -63,5 +63,5 @@ modifiers.key.jei.previousPage:
 modifiers.key.jei.nextPage:
 modifiers.key.jei.previousCategory:key.keyboard.left.shift
 modifiers.key.jei.nextCategory:key.keyboard.left.shift
-modifiers.key.jei.bookmark:
+modifiers.key.jei.bookmark:key.keyboard.left.alt
 modifiers.key.jei.toggleBookmarkOverlay:
