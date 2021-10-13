@@ -7,7 +7,7 @@
     "type": "minecraft:multi_noise",
     "biomes":[
           {
-            "biome": "astrotale:amber_forest",
+            "biome": "astrotale:blue_desert",
             "parameters":{
               "altitude": -1.0,
               "temperature": -0.3,

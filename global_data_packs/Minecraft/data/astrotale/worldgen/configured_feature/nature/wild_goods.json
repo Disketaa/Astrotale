@@ -1,0 +1,65 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "feature": {
+      "config": {
+        "whitelist": [
+          {
+            "Properties": {
+              "snowy": "false"
+            },
+            "Name": "minecraft:grass_block"
+          }
+        ],
+        "blacklist": [],
+        "tries": 2,
+        "state_provider": {
+          "type": "minecraft:weighted_state_provider",
+          "entries": [
+            {
+              "weight": 8,
+              "data": {
+                "Name": "farmersdelight:wild_tomatoes"
+              }
+            },
+            {
+              "weight": 8,
+              "data": {
+                "Name": "farmersdelight:wild_carrots"
+              }
+            },
+            {
+              "weight": 10,
+              "data": {
+                "Name": "farmersdelight:wild_cabbages"
+              }
+            },
+            {
+              "weight": 8,
+              "data": {
+                "Name": "farmersdelight:wild_potatoes"
+              }
+            },                                  
+            {
+              "weight": 10,
+              "data": {
+                "Name": "farmersdelight:wild_beetroots"
+              }
+            }                                      
+          ]
+        },
+        "block_placer": {
+          "type": "minecraft:simple_block_placer"
+        }
+      },
+      "type": "minecraft:random_patch",
+      "name": "astrotale:forest_vegetation"
+    },
+    "decorator": {
+      "config": {
+        "count": 1
+      },
+      "type": "minecraft:count"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "feature": {
+      "type": "minecraft:decorated",
+      "name": "astrotale:grass_desert",
+      "config": {
+        "feature": {
+          "config": {
+            "whitelist": [
+              {
+                "Name": "byg:pink_sand"
+              }
+            ],
+            "blacklist": [],
+            "tries": 64,
+            "state_provider": {
+              "state": {
+                "Name": "byg:beach_grass"
+              },
+              "type": "minecraft:simple_state_provider"
+            },
+            "block_placer": {
+              "type": "minecraft:simple_block_placer"
+            }
+          },
+          "type": "minecraft:random_patch"
+        },
+        "decorator": {
+          "config": {
+            "outer": {
+              "config": {},
+              "type": "minecraft:square"
+            },
+            "inner": {
+              "config": {},
+              "type": "minecraft:heightmap_spread_double"
+            }
+          },
+          "type": "minecraft:decorated"
+        }
+      }
+    },
+    "decorator": {
+      "config": {
+        "chance": 8
+      },
+      "type": "minecraft:chance"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "byg:block/pink_sand"
+      },
+      {
+        "model": "byg:block/pink_sand",
+        "y": 90
+      },
+      {
+        "model": "byg:block/pink_sand",
+        "y": 180
+      },
+      {
+        "model": "byg:block/pink_sand",
+        "y": 270
+      },
+
+      {
+        "model": "byg:block/pink_sand1"
+      },
+      {
+        "model": "byg:block/pink_sand1",
+        "y": 90
+      },
+      {
+        "model": "byg:block/pink_sand1",
+        "y": 180
+      },
+      {
+        "model": "byg:block/pink_sand1",
+        "y": 270
+      }      
+    ]
+  }
+}

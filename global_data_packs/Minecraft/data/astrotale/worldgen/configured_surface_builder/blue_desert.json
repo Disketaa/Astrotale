@@ -1,0 +1,14 @@
+{
+  "config": {
+    "top_material": {
+      "Name": "byg:pink_sand"
+    },
+    "under_material": {
+      "Name": "byg:pink_sandstone"
+    },
+    "underwater_material": {
+      "Name": "minecraft:gravel"
+    }
+  },
+  "type": "minecraft:default"
+}

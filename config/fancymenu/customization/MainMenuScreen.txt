@@ -14,52 +14,14 @@ customization {
 }
 
 customization {
-  identifier = %id=604382%
-  action = hidebutton
+  path = config/fancymenu/audio/ping.wav
+  loop = false
+  action = addaudio
 }
 
 customization {
-  identifier = %id=376382%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=400346%
-  orientation = bottom-left
-  x = 24
-  action = movebutton
-  y = -20
-}
-
-customization {
-  identifier = %id=400346%
-  width = 16
-  action = resizebutton
-  height = 16
-}
-
-customization {
-  identifier = %id=400346%
-  action = setbuttonlabel
-  value = 
-}
-
-customization {
-  identifier = %id=400346%
-  action = setbuttontexture
-  backgroundhovered = config/fancymenu/customguis/icon_mods_hovered.png
-  backgroundnormal = config/fancymenu/customguis/icon_mods.png
-}
-
-customization {
-  identifier = %id=400346%
-  action = setbuttondescription
-  description = Mods
-}
-
-customization {
-  identifier = %id=502346%
-  action = hidebutton
+  keepaspectratio = false
+  action = backgroundoptions
 }
 
 customization {
@@ -78,18 +40,18 @@ customization {
 }
 
 customization {
-  identifier = %id=400298%
-  orientation = mid-centered
-  x = -55
-  action = movebutton
-  y = -34
+  identifier = %id=400322%
+  action = vanilla_button_visibility_requirements
 }
 
 customization {
-  identifier = %id=400298%
-  width = 110
-  action = resizebutton
-  height = 20
+  identifier = %id=604382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=604382%
+  action = vanilla_button_visibility_requirements
 }
 
 customization {
@@ -115,15 +77,22 @@ customization {
 
 customization {
   identifier = %id=400382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = config/fancymenu/customguis/icon_setting_hovered.png
-  backgroundnormal = config/fancymenu/customguis/icon_setting.png
+  backgroundhovered = config\fancymenu\customguis\icon_setting_hovered.png
+  backgroundnormal = config\fancymenu\customguis\icon_setting.png
 }
 
 customization {
   identifier = %id=400382%
   action = setbuttondescription
   description = Options
+}
+
+customization {
+  identifier = %id=400382%
+  action = vanilla_button_visibility_requirements
 }
 
 customization {
@@ -139,6 +108,92 @@ customization {
   width = 110
   action = resizebutton
   height = 20
+}
+
+customization {
+  identifier = %id=502382%
+  action = vanilla_button_visibility_requirements
+}
+
+customization {
+  identifier = %id=376382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376382%
+  action = vanilla_button_visibility_requirements
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = mid-centered
+  x = -55
+  action = movebutton
+  y = -34
+}
+
+customization {
+  identifier = %id=400298%
+  width = 110
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400298%
+  action = vanilla_button_visibility_requirements
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = bottom-left
+  x = 24
+  action = movebutton
+  y = -20
+}
+
+customization {
+  identifier = %id=400346%
+  width = 16
+  action = resizebutton
+  height = 16
+}
+
+customization {
+  identifier = %id=400346%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400346%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\customguis\icon_mods_hovered.png
+  backgroundnormal = config\fancymenu\customguis\icon_mods.png
+}
+
+customization {
+  identifier = %id=400346%
+  action = setbuttondescription
+  description = Mods
+}
+
+customization {
+  identifier = %id=400346%
+  action = vanilla_button_visibility_requirements
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502346%
+  action = vanilla_button_visibility_requirements
 }
 
 customization {
@@ -161,5 +216,10 @@ customization {
   actionid = 4347363a-9c27-4469-a67f-ee9a5b8492d81628947986013
   y = -92
   height = 150
+}
+
+customization {
+  identifier = %id=90%
+  action = vanilla_button_visibility_requirements
 }
 
