@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "": [ { "model": "block/copper_ore" }, { "model": "block/copper_ore1" }
+ ]
+    }
+}

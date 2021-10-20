@@ -9,16 +9,25 @@
           "config": {
             "whitelist": [
               {
-                "Name": "byg:pink_sand"
+                "Name": "minecraft:red_sand"
               }
             ],
             "blacklist": [],
-            "tries": 64,
+            "tries": 16,
             "state_provider": {
-              "state": {
-                "Name": "byg:beach_grass"
-              },
-              "type": "minecraft:simple_state_provider"
+              "type": "minecraft:weighted_state_provider",
+              "entries": [
+                {
+                  "data": {
+                    "Name": "byg:beach_grass"
+                  }
+                },
+                {
+                  "data": {
+                    "Name": "byg:short_beach_grass"
+                  }
+                }
+              ]
             },
             "block_placer": {
               "type": "minecraft:simple_block_placer"
@@ -42,10 +51,10 @@
       }
     },
     "decorator": {
+      "type": "minecraft:count_multilayer",
       "config": {
-        "chance": 8
-      },
-      "type": "minecraft:chance"
+        "count": 2
+      }
     }
   }
 }

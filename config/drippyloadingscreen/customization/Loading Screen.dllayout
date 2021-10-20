@@ -24,11 +24,11 @@ customization {
 customization {
   path = config/fancymenu/animations/loading/loading.gif
   orientation = bottom-right
-  x = -12
-  width = 8
+  x = -4
+  width = 24
   action = addtexture
   actionid = 4c817984-a8fa-4ea0-a697-4d8746e598ab1630885920026
-  y = -12
-  height = 8
+  y = -4
+  height = 24
 }
 

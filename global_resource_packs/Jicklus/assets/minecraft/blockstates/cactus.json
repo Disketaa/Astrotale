@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+      "model": "minecraft:block/cactus"
+      },
+
+      {
+      "model": "minecraft:block/cactus/cactus1",
+      "y": 90
+      },
+      {
+      "model": "minecraft:block/cactus/cactus1",
+      "y": 180
+      },
+      {
+      "model": "minecraft:block/cactus/cactus1",
+      "y": 270
+      }                   
+  ]}
+}

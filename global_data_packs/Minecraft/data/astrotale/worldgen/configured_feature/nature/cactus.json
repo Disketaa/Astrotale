@@ -2,37 +2,55 @@
   "type": "minecraft:decorated",
   "config": {
     "feature": {
+      "type": "minecraft:decorated",
+      "name": "astrotale:cactus",
       "config": {
-        "whitelist": [
-          {
-            "Name": "byg:pink_sand"
-          }
-        ],
-        "blacklist": [],
-        "tries": 64,
-        "state_provider": {
-          "state": {
-            "Name": "minecraft:cactus",
-            "Properties": {
-              "age": "0"
+        "feature": {
+          "config": {
+            "whitelist": [
+              {
+                "Name": "minecraft:red_sand"
+              }
+            ],
+            "blacklist": [],
+            "tries": 1,
+            "state_provider": {
+              "state": {
+                "Name": "minecraft:cactus",
+                "Properties": {
+                  "age": "0"
+                }
+              },
+              "type": "minecraft:simple_state_provider"
+            },
+            "block_placer": {
+              "type": "minecraft:column_placer",
+              "min_size": 1,
+              "extra_size": 2
             }
           },
-          "type": "minecraft:simple_state_provider"
+          "type": "minecraft:random_patch"
         },
-        "block_placer": {
-          "type": "minecraft:column_placer",
-          "min_size": 1,
-          "extra_size": 3
+        "decorator": {
+          "config": {
+            "outer": {
+              "config": {},
+              "type": "minecraft:square"
+            },
+            "inner": {
+              "config": {},
+              "type": "minecraft:heightmap_spread_double"
+            }
+          },
+          "type": "minecraft:decorated"
         }
-      },
-      "type": "minecraft:random_patch",
-      "name": "astrotale:cactus"
+      }
     },
     "decorator": {
+      "type": "minecraft:count_multilayer",
       "config": {
-        "chance": 32
-      },
-      "type": "minecraft:chance"
+        "count": 2
+      }
     }
   }
 }

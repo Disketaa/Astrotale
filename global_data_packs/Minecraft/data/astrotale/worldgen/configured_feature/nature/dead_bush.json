@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "feature": {
+      "type": "minecraft:decorated",
+      "name": "astrotale:dead_bush",
+      "config": {
+        "feature": {
+          "config": {
+            "whitelist": [
+              {
+                "Name": "minecraft:red_sand"
+              }
+            ],
+            "blacklist": [],
+            "tries": 2,
+            "state_provider": {
+              "state": {
+                "Name": "minecraft:dead_bush"
+              },
+              "type": "minecraft:simple_state_provider"
+            },
+            "block_placer": {
+              "type": "minecraft:simple_block_placer"
+            }
+          },
+          "type": "minecraft:random_patch"
+        },
+        "decorator": {
+          "config": {
+            "outer": {
+              "config": {},
+              "type": "minecraft:square"
+            },
+            "inner": {
+              "config": {},
+              "type": "minecraft:heightmap_spread_double"
+            }
+          },
+          "type": "minecraft:decorated"
+        }
+      }
+    },
+    "decorator": {
+      "type": "minecraft:count_multilayer",
+      "config": {
+        "count": 3
+      }
+    }
+  }
+}

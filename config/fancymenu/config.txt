@@ -22,7 +22,7 @@ B:showcustomizationbuttons = 'true';
 
 ##[mainmenu]
 
-S:copyrightposition = '';
+S:copyrightposition = 'top-right';
 B:hidebranding = 'true';
 S:copyrightcolor = '#ffffff';
 B:hidelogo = 'true';
@@ -54,7 +54,7 @@ S:customgameintroskiptext = '';
 ##[minecraftwindow]
 
 [A minecraft restart is required after changing this value.]
-S:customwindowtitle = 'Astrotale' a1.6.2 (dev)';
+S:customwindowtitle = 'Astrotale' a1.6.8' dev';
 [A minecraft restart is required after changing this value.]
 B:customwindowicon = 'true';
 

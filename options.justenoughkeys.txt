@@ -35,10 +35,10 @@ modifiers.key.hotbar.9:
 modifiers.key.create_stuff_additions.flying:
 modifiers.key.toggleLiquids:
 modifiers.key.toggleVisible:
+modifiers.placebo.toggleWings:
 modifiers.key.invtweaks_sort_player.desc:
 modifiers.key.invtweaks_sort_inventory.desc:
 modifiers.key.invtweaks_sort_either.desc:
-modifiers.placebo.toggleWings:
 modifiers.placebo.toggleTrails:
 modifiers.key.toastcontrol.clear:
 modifiers.fpsreducer.key.openGui:

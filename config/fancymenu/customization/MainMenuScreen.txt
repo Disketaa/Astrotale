@@ -14,29 +14,29 @@ customization {
 }
 
 customization {
-  path = config/fancymenu/audio/ping.wav
-  loop = false
-  action = addaudio
-}
-
-customization {
   keepaspectratio = false
   action = backgroundoptions
 }
 
 customization {
   identifier = %id=400322%
-  orientation = mid-centered
-  x = -55
+  orientation = bottom-left
+  x = 8
   action = movebutton
-  y = -10
+  y = -80
 }
 
 customization {
   identifier = %id=400322%
-  width = 110
+  width = 148
   action = resizebutton
   height = 20
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttonlabel
+  value = %local:disketaa.button.multiplayer%
 }
 
 customization {
@@ -56,38 +56,23 @@ customization {
 
 customization {
   identifier = %id=400382%
-  orientation = bottom-left
-  x = 4
+  orientation = bottom-right
+  x = -170
   action = movebutton
-  y = -20
+  y = -28
 }
 
 customization {
   identifier = %id=400382%
-  width = 16
+  width = 80
   action = resizebutton
-  height = 16
+  height = 20
 }
 
 customization {
   identifier = %id=400382%
   action = setbuttonlabel
-  value = 
-}
-
-customization {
-  identifier = %id=400382%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = config\fancymenu\customguis\icon_setting_hovered.png
-  backgroundnormal = config\fancymenu\customguis\icon_setting.png
-}
-
-customization {
-  identifier = %id=400382%
-  action = setbuttondescription
-  description = Options
+  value = %local:disketaa.button.options%
 }
 
 customization {
@@ -97,21 +82,47 @@ customization {
 
 customization {
   identifier = %id=502382%
-  orientation = mid-centered
-  x = -55
+  orientation = bottom-right
+  x = -87
   action = movebutton
-  y = 14
+  y = -28
 }
 
 customization {
   identifier = %id=502382%
-  width = 110
+  width = 80
   action = resizebutton
   height = 20
 }
 
 customization {
   identifier = %id=502382%
+  action = setbuttonlabel
+  value = %local:disketaa.button.quit%
+}
+
+customization {
+  identifier = %id=502382%
+  action = vanilla_button_visibility_requirements
+}
+
+customization {
+  identifier = %id=90%
+  orientation = mid-left
+  x = 0
+  action = movebutton
+  y = -10
+}
+
+customization {
+  identifier = %id=90%
+  width = 40
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=90%
   action = vanilla_button_visibility_requirements
 }
 
@@ -127,17 +138,32 @@ customization {
 
 customization {
   identifier = %id=400298%
-  orientation = mid-centered
-  x = -55
+  orientation = bottom-left
+  x = 8
   action = movebutton
-  y = -34
+  y = -56
 }
 
 customization {
   identifier = %id=400298%
-  width = 110
+  width = 148
   action = resizebutton
-  height = 20
+  height = 48
+}
+
+customization {
+  identifier = %id=400298%
+  action = setbuttonlabel
+  value = %local:disketaa.button.singleplayer%
+}
+
+customization {
+  identifier = %id=400298%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\customguis\button_hovered_singleplayer.png
+  backgroundnormal = config\fancymenu\customguis\button_singleplayer.png
 }
 
 customization {
@@ -147,15 +173,20 @@ customization {
 
 customization {
   identifier = %id=400346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400346%
   orientation = bottom-left
-  x = 24
+  x = 25
   action = movebutton
   y = -20
 }
 
 customization {
   identifier = %id=400346%
-  width = 16
+  width = 15
   action = resizebutton
   height = 16
 }
@@ -199,27 +230,11 @@ customization {
 customization {
   path = config/fancymenu/customguis/menuscreens/logo.png
   orientation = top-centered
-  x = -98
-  width = 196
+  x = -95
+  width = 190
   action = addtexture
   actionid = 3258e518-b3b7-4744-aae5-be1899e6c7b31628870643900
-  y = 26
-  height = 36
-}
-
-customization {
-  path = config/fancymenu/customguis/menuscreens/planet.png
-  orientation = bottom-centered
-  x = -267
-  width = 534
-  action = addtexture
-  actionid = 4347363a-9c27-4469-a67f-ee9a5b8492d81628947986013
-  y = -92
-  height = 150
-}
-
-customization {
-  identifier = %id=90%
-  action = vanilla_button_visibility_requirements
+  y = 17
+  height = 30
 }
 
